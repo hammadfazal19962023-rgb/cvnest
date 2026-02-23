@@ -38,10 +38,10 @@ const UploadStep = ({ file, onFileChange, onNext, onManualEntry }: UploadStepPro
       className="max-w-xl mx-auto"
     >
       <h2 className="font-heading text-3xl font-bold text-foreground mb-2 text-center">
-        Upload Your LinkedIn PDF
+        LinkedIn PDF Upload <span className="text-sm text-muted-foreground">(Optional)</span>
       </h2>
       <p className="text-muted-foreground text-center mb-8">
-        Go to your LinkedIn profile → More → Save to PDF
+        Save your LinkedIn profile as PDF: Profile → More → Save to PDF
       </p>
 
       {!file ? (
@@ -63,7 +63,7 @@ const UploadStep = ({ file, onFileChange, onNext, onManualEntry }: UploadStepPro
           <p className="text-foreground font-medium mb-1">
             Drag & drop your LinkedIn PDF here
           </p>
-          <p className="text-sm text-muted-foreground">or click to browse</p>
+          <p className="text-sm text-muted-foreground">or click to browse (optional)</p>
           <input
             id="file-upload"
             type="file"
@@ -98,7 +98,7 @@ const UploadStep = ({ file, onFileChange, onNext, onManualEntry }: UploadStepPro
           onClick={onManualEntry}
           className="text-sm text-muted-foreground hover:text-accent underline underline-offset-4 transition-colors"
         >
-          Don't have a LinkedIn PDF? Enter details manually
+          Return to Manual Entry
         </button>
         <Button onClick={onNext} disabled={!file} size="lg">
           Continue

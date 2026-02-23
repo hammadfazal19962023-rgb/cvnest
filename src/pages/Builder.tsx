@@ -34,7 +34,7 @@ const Builder = () => {
   const [selectedTemplate, setSelectedTemplate] = useState("");
   const [isGenerating, setIsGenerating] = useState(false);
   const [cvData, setCvData] = useState<CVData | null>(null);
-  const [useManualEntry, setUseManualEntry] = useState(false);
+  const [useManualEntry, setUseManualEntry] = useState(true);
   const [manualProfile, setManualProfile] = useState<ManualProfile>(emptyProfile);
 
   const buildProfileText = (p: ManualProfile): string => {
@@ -130,6 +130,18 @@ const Builder = () => {
         <StepIndicator steps={steps} currentStep={currentStep} />
 
         <AnimatePresence mode="wait">
+          {currentStep === 0 && useManualEntry && (
+            <ManualEntryStep
+              key="manual"
+              profile={manualProfile}
+              onProfileChange={setManualProfile}
+              onNext={() => setCurrentStep(1)}
+              onBack={() => {
+                setUseManualEntry(false);
+                setFile(null);
+              }}
+            />
+          )}
           {currentStep === 0 && !useManualEntry && (
             <UploadStep
               key="upload"
@@ -140,15 +152,6 @@ const Builder = () => {
                 setUseManualEntry(true);
                 setFile(null);
               }}
-            />
-          )}
-          {currentStep === 0 && useManualEntry && (
-            <ManualEntryStep
-              key="manual"
-              profile={manualProfile}
-              onProfileChange={setManualProfile}
-              onNext={() => setCurrentStep(1)}
-              onBack={() => setUseManualEntry(false)}
             />
           )}
           {currentStep === 1 && (

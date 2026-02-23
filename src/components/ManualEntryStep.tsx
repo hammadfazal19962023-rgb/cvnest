@@ -180,7 +180,7 @@ const ManualEntryStep = ({ profile, onProfileChange, onNext, onBack }: ManualEnt
 
       <div className="mt-8 flex justify-between">
         <Button variant="ghost" onClick={onBack}>
-          Back
+          Use LinkedIn PDF Instead
         </Button>
         <Button onClick={onNext} disabled={!isValid} size="lg">
           Continue
