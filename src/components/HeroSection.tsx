@@ -8,8 +8,8 @@ const HeroSection = () => {
 
   return (
     <section className="relative min-h-screen bg-gradient-to-br from-orange-50 via-yellow-50 to-pink-50 overflow-hidden">
-      {/* Playful doodles */}
-      <div className="absolute inset-0 opacity-30">
+      {/* Playful doodles - hidden on mobile */}
+      <div className="hidden md:block absolute inset-0 opacity-30">
         <svg className="absolute top-20 left-10 w-32 h-32" viewBox="0 0 100 100">
           <circle cx="50" cy="50" r="40" stroke="orange" strokeWidth="2" fill="none" strokeDasharray="5,5" />
         </svg>
@@ -21,23 +21,23 @@ const HeroSection = () => {
         </svg>
       </div>
 
-      {/* Floating emojis */}
+      {/* Floating emojis - hidden on mobile */}
       <motion.div
-        className="absolute top-32 left-1/4 text-4xl"
+        className="hidden md:block absolute top-32 left-1/4 text-4xl"
         animate={{ y: [0, -20, 0], rotate: [0, 10, 0] }}
         transition={{ duration: 4, repeat: Infinity }}
       >
         🚀
       </motion.div>
       <motion.div
-        className="absolute bottom-40 right-1/4 text-4xl"
+        className="hidden md:block absolute bottom-40 right-1/4 text-4xl"
         animate={{ y: [0, -30, 0], rotate: [0, -10, 0] }}
         transition={{ duration: 5, repeat: Infinity }}
       >
         ✨
       </motion.div>
       <motion.div
-        className="absolute top-60 right-20 text-4xl"
+        className="hidden md:block absolute top-60 right-20 text-4xl"
         animate={{ scale: [1, 1.2, 1] }}
         transition={{ duration: 3, repeat: Infinity }}
       >
