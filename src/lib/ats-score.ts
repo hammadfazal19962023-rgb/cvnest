@@ -28,6 +28,11 @@ export interface ATSResult {
 }
 
 export function calculateATSScore(cvData: CVData, jobDescription: string): ATSResult {
+  // If no job description provided, return neutral result
+  if (!jobDescription.trim()) {
+    return { score: 0, matched: [], missing: [], total: 0 };
+  }
+
   const jobKeywords = extractKeywords(jobDescription);
 
   const cvText = [

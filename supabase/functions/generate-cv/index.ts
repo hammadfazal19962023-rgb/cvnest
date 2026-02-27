@@ -14,9 +14,9 @@ serve(async (req) => {
   try {
     const { pdfText, jobDescription, template } = await req.json();
 
-    if (!pdfText || !jobDescription || !template) {
+    if (!pdfText || !template) {
       return new Response(
-        JSON.stringify({ error: "Missing required fields: pdfText, jobDescription, template" }),
+        JSON.stringify({ error: "Missing required fields: pdfText, template" }),
         { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } }
       );
     }
@@ -28,18 +28,18 @@ serve(async (req) => {
 
     const systemPrompt = `You are a professional CV/resume writer specializing in ATS-optimized resumes. You will receive:
 1. Raw text extracted from a LinkedIn PDF profile
-2. A job description the user is targeting
+2. Optionally, a job description the user is targeting
 3. A template style preference
 
-Your task is to generate an ATS-friendly, tailored, professional CV in structured JSON format. The CV MUST pass Applicant Tracking Systems (ATS) screening.
+Your task is to generate an ATS-friendly, professional CV in structured JSON format. The CV MUST pass Applicant Tracking Systems (ATS) screening. ${jobDescription ? 'Tailor the CV to match the provided job description.' : 'Create a comprehensive, general CV that showcases the candidate\'s skills and experience suitable for their professional field.'}
 
 Return ONLY valid JSON with this exact structure (no markdown, no code blocks):
 {
   "name": "Full Name",
-  "title": "Professional Title tailored to the job",
+  "title": "Professional Title",
   "email": "email@example.com",
   "location": "City, Country",
-  "summary": "2-3 sentence professional summary tailored to the target role",
+  "summary": "2-3 sentence professional summary",
   "experience": [
     {
       "role": "Job Title",
@@ -61,31 +61,32 @@ Return ONLY valid JSON with this exact structure (no markdown, no code blocks):
 
 ATS Optimization Guidelines:
 - Use STANDARD job titles that ATS systems recognize (e.g. "Software Engineer" not "Code Ninja").
-- Include EXACT keywords and phrases from the job description naturally woven into experience bullets and summary — but NEVER copy sentences verbatim. Always rephrase in the candidate's own voice.
 - Use STANDARD section headings (Summary, Experience, Education, Skills, Certifications).
 - Write bullet points starting with strong ACTION VERBS (Led, Developed, Implemented, Optimized, Delivered, Managed, Designed, etc.).
 - Quantify achievements with realistic metrics (percentages, dollar amounts, team sizes, timescales) based on the profile data.
 - Include BOTH the spelled-out term AND its acronym for technical skills (e.g. "Search Engine Optimization (SEO)") to maximize ATS keyword matching.
 - List skills as individual, specific terms — avoid vague phrases like "team player" or "hard worker".
-- Order skills by relevance to the target job, placing the most critical ATS-matching skills first.
+- Order skills by relevance to their field and the most marketable skills first.
 - Include 8-12 most relevant skills to maximize ATS keyword score.
 - Keep bullet points concise (1-2 lines each), impactful, and results-oriented.
 - Avoid graphics-dependent content descriptions — ATS cannot parse images, icons, or charts.
 - Use simple, clean language — avoid tables, columns, or special characters that ATS may misread.`;
 
-    const userPrompt = `LinkedIn Profile Data:
----
-${pdfText}
----
+    const jobDescriptionSection = jobDescription ? `
 
 Target Job Description:
 ---
 ${jobDescription}
+---` : ' No specific job description provided.';
+
+    const userPrompt = `LinkedIn Profile Data:
 ---
+${pdfText}
+---${jobDescriptionSection}
 
 Template style: ${template}
 
-Generate a tailored CV in JSON format.`;
+Generate a professional CV in JSON format.`;
 
     const response = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
       method: "POST",

@@ -86,8 +86,12 @@ const Builder = () => {
         }
       }
 
+
+      if (!jobDescription) {
+        setJobDescription(" ");
+      }
       const { data, error } = await supabase.functions.invoke("generate-cv", {
-        body: { pdfText: profileText, jobDescription, template: selectedTemplate },
+        body: { pdfText: profileText, jobDescription: jobDescription || " ", template: selectedTemplate },
       });
 
       if (error) {
