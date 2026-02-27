@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { AnimatePresence } from "framer-motion";
 import { ArrowLeft, LogIn, LogOut } from "lucide-react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { toast } from "sonner";
 import { useAuth } from "@/hooks/useAuth";
 import { Button } from "@/components/ui/button";
@@ -26,6 +26,7 @@ const emptyProfile: ManualProfile = {
 
 const Builder = () => {
   const navigate = useNavigate();
+  const location = useLocation();
   const { user, signOut } = useAuth();
   const [currentStep, setCurrentStep] = useState(0);
   const [isEditMode, setIsEditMode] = useState(false);
@@ -36,6 +37,14 @@ const Builder = () => {
   const [cvData, setCvData] = useState<CVData | null>(null);
   const [useManualEntry, setUseManualEntry] = useState(true);
   const [manualProfile, setManualProfile] = useState<ManualProfile>(emptyProfile);
+
+  // Check if a template was pre-selected from hero page
+  useEffect(() => {
+    const state = location.state as { selectedTemplate?: string } | null;
+    if (state?.selectedTemplate) {
+      setSelectedTemplate(state.selectedTemplate);
+    }
+  }, [location]);
 
   const buildProfileText = (p: ManualProfile): string => {
     let text = `Name: ${p.name}\nTitle: ${p.title}\nEmail: ${p.email}\nPhone: ${p.phone}\nPostcode: ${p.postcode}\nLocation: ${p.location}\n\nSummary: ${p.summary}\n`;
