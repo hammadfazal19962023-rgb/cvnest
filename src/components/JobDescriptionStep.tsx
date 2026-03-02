@@ -23,10 +23,10 @@ const JobDescriptionStep = ({
       className="max-w-xl mx-auto"
     >
       <h2 className="font-heading text-3xl font-bold text-foreground mb-2 text-center">
-        Paste the Job Description
+        Paste the Job Description (Optional)
       </h2>
       <p className="text-muted-foreground text-center mb-8">
-        AI will tailor your CV to match this specific role
+        AI will tailor your CV to match this specific role. You can skip this step if you don't have a job description.
       </p>
 
       <Textarea
@@ -40,8 +40,8 @@ const JobDescriptionStep = ({
         <Button variant="ghost" onClick={onBack}>
           Back
         </Button>
-        <Button onClick={onNext} disabled={!jobDescription.trim()} size="lg">
-          Continue
+        <Button onClick={onNext} size="lg">
+          {jobDescription ? "Continue" : "Skip Job Description"}
         </Button>
       </div>
     </motion.div>

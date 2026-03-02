@@ -38,7 +38,8 @@ const UploadStep = ({ file, onFileChange, onNext, onManualEntry }: UploadStepPro
       className="max-w-xl mx-auto"
     >
       <h2 className="font-heading text-3xl font-bold text-foreground mb-2 text-center">
-        LinkedIn PDF Upload <span className="text-sm text-muted-foreground">(Optional)</span>
+        LinkedIn PDF Upload 
+        {/* <span className="text-sm text-muted-foreground">(Optional)</span> */}
       </h2>
       <p className="text-muted-foreground text-center mb-8">
         Save your LinkedIn profile as PDF: Profile → More → Save to PDF

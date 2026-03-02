@@ -11,40 +11,46 @@ const Index = () => {
   const toastIdRef = useRef<string | number | null>(null);
 
   useEffect(() => {
-    // Show privacy policy notification on page load
-    toastIdRef.current = toast.custom(
-      (t) => (
-        <div className="bg-card border border-border rounded-lg p-4 shadow-lg max-w-sm">
-          <p className="font-semibold text-foreground mb-4">Privacy & Cookies Notice</p>
-          <p className="text-sm text-muted-foreground mb-4">
-            We use cookies and ads to enhance your experience.
-          </p>
-          <div className="flex gap-2">
-            <Button
-              size="sm"
-              variant="default"
-              onClick={() => {
-                toast.dismiss(t);
-              }}
-            >
-              Accept
-            </Button>
-            <Button
-              size="sm"
-              variant="outline"
-              onClick={() => {
-                toast.dismiss(t);
-              }}
-            >
-              Reject
-            </Button>
+    // Show privacy policy notification only on first visit
+    const hasSeenPrivacyPolicy = localStorage.getItem("privacy_policy_seen");
+    
+    if (!hasSeenPrivacyPolicy) {
+      toastIdRef.current = toast.custom(
+        (t) => (
+          <div className="bg-card border border-border rounded-lg p-4 shadow-lg max-w-sm">
+            <p className="font-semibold text-foreground mb-4">Privacy & Cookies Notice</p>
+            <p className="text-sm text-muted-foreground mb-4">
+              We use cookies and ads to enhance your experience.
+            </p>
+            <div className="flex gap-2">
+              <Button
+                size="sm"
+                variant="default"
+                onClick={() => {
+                  localStorage.setItem("privacy_policy_seen", "true");
+                  toast.dismiss(t);
+                }}
+              >
+                Accept
+              </Button>
+              <Button
+                size="sm"
+                variant="outline"
+                onClick={() => {
+                  localStorage.setItem("privacy_policy_seen", "true");
+                  toast.dismiss(t);
+                }}
+              >
+                Reject
+              </Button>
+            </div>
           </div>
-        </div>
-      ),
-      {
-        duration: Infinity,
-      }
-    );
+        ),
+        {
+          duration: Infinity,
+        }
+      );
+    }
   }, [navigate]);
 
   return (
