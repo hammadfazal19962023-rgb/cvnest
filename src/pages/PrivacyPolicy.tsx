@@ -1,11 +1,21 @@
+import { ArrowLeft } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 const PrivacyPolicy = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen bg-background">
       <header className="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-6 py-4">
-          <a href="/" className="font-heading text-lg font-bold text-foreground hover:text-muted-foreground transition-colors">
-            CV Nest
-          </a>
+          <button
+            onClick={() => navigate("/")}
+            className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            <span className="font-heading text-lg font-bold text-foreground">
+              CV Nest
+            </span>
+          </button>
         </div>
       </header>
 
@@ -28,7 +38,7 @@ const PrivacyPolicy = () => {
           {/* Information We Collect */}
           <section>
             <h2 className="text-2xl font-semibold mb-4">2. Information We Collect</h2>
-            
+
             <h3 className="text-xl font-semibold mb-2 mt-4">A. Information You Provide</h3>
             <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4 mb-4">
               <li><strong>Account Information:</strong> When you create an account, we collect your email address, password, and authentication details.</li>
@@ -68,7 +78,7 @@ const PrivacyPolicy = () => {
             <p className="text-muted-foreground mb-4">
               Our website uses Google AdSense and other advertising partners to display ads based on your interests. These advertising partners may collect and use information about your visits to our website and other websites to provide targeted advertisements.
             </p>
-            
+
             <h3 className="text-xl font-semibold mb-2 mt-4">Google AdSense</h3>
             <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4 mb-4">
               <li>Google uses cookies to serve ads based on your prior visits to our website or other websites</li>
@@ -187,7 +197,7 @@ const PrivacyPolicy = () => {
       <footer className="py-12 px-6 border-t border-border bg-background mt-12">
         <div className="container mx-auto max-w-4xl text-center">
           <p className="text-xs text-muted-foreground tracking-wide">
-            © {new Date().getFullYear()} cvnest. Free forever.
+            © {new Date().getFullYear()} CV Nest. Free forever.
           </p>
         </div>
       </footer>
