@@ -3,6 +3,9 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import HeroSection from "@/components/HeroSection";
+import HowItWorks from "@/components/HowItWorks";
+import BlogSection from "@/components/BlogSection";
+import FaqSection from "@/components/FaqSection";
 // import FeaturesSection from "@/components/FeaturesSection";
 // import FooterSection from "@/components/FooterSection";
 
@@ -56,8 +59,14 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <HeroSection />
+      
+      {/* Additional sections */}
+      <HowItWorks />
+      <BlogSection />
+      <FaqSection />
+      
       {/* <FeaturesSection /> */}
-      {/* <FooterSection />/ */}
+      {/* <FooterSection /> */}
     </div>
   );
 };
