@@ -4,7 +4,7 @@ const PrivacyPolicy = () => {
       <header className="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-6 py-4">
           <a href="/" className="font-heading text-lg font-bold text-foreground hover:text-muted-foreground transition-colors">
-            cvnest
+            CV Nest
           </a>
         </div>
       </header>
@@ -18,7 +18,7 @@ const PrivacyPolicy = () => {
           <section>
             <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>
             <p className="text-muted-foreground mb-4">
-              Welcome to cvnest ("we," "our," or "us"). We are committed to protecting your privacy and ensuring you have a positive experience on our website. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.
+              Welcome to CV Nest ("we," "our," or "us"). We are committed to protecting your privacy and ensuring you have a positive experience on our website. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.
             </p>
             <p className="text-muted-foreground">
               Please read this Privacy Policy carefully. If you do not agree with our policies and practices, please do not use our website.
@@ -157,7 +157,7 @@ const PrivacyPolicy = () => {
               If you have questions, concerns, or requests regarding this Privacy Policy or our privacy practices, please contact us at:
             </p>
             <div className="bg-card border border-border rounded-lg p-6 text-muted-foreground">
-              <p className="mb-2"><strong>cvnest</strong></p>
+              <p className="mb-2"><strong>CV Nest</strong></p>
               <p className="mb-2">Email: privacy@cvnest.com</p>
               <p>We will respond to your inquiry within 30 days of receipt.</p>
             </div>

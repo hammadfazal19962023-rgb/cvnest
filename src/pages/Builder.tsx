@@ -124,7 +124,7 @@ const Builder = () => {
           >
             <ArrowLeft className="w-4 h-4" />
             <span className="font-heading text-lg font-bold text-foreground">
-              cvnest
+              CV Nest
             </span>
           </button>
           {user ? (
