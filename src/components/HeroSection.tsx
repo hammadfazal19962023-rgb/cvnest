@@ -333,7 +333,7 @@ const HeroSection = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1 }}
-            className="mt-12 text-sm text-slate-400"
+            className="mt-12 text-sm text-slate-400 mb-5"
           >
             🎉 PS: We're 100% free because we hate paywalls as much as you do
           </motion.p>
