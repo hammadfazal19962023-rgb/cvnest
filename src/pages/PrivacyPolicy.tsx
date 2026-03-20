@@ -36,7 +36,7 @@ const PrivacyPolicy = () => {
           {/* Header Section */}
           <div className="flex items-center gap-3 mb-4">
             <Shield className="w-8 h-8 text-orange-500" />
-            <h1 className="text-3xl md:text-4xl font-black bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
+            <h1 className="hero-gradient-text text-3xl md:text-4xl font-black bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
               Privacy Policy
             </h1>
           </div>

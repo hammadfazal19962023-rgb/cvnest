@@ -1,5 +1,8 @@
 import { Heart, Shield, FileText, Cookie, AlertCircle } from "lucide-react";
 import { Link } from "react-router-dom";
+import cvNestLogo from "/public/android-chrome-512x512.png";
+
+
 
 const FooterSection = () => {
   return (
@@ -10,8 +13,12 @@ const FooterSection = () => {
           {/* Brand section */}
           <div className="text-center md:text-left">
             <Link to="/" className="flex items-center gap-2 justify-center md:justify-start mb-3 group">
-              <span className="text-2xl group-hover:scale-110 transition-transform">🏠</span>
-              <h3 className="font-heading text-xl font-black bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
+              <img
+                src={cvNestLogo}
+                alt="CV Nest Logo"
+                className="w-8 h-8 object-contain group-hover:scale-110 transition-transform"
+              />
+              <h3 className="hero-gradient-text font-heading text-xl font-black bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
                 CV Nest
               </h3>
             </Link>
@@ -24,29 +31,29 @@ const FooterSection = () => {
           <div className="text-center">
             <h4 className="font-semibold text-slate-700 mb-3 text-sm">Legal</h4>
             <div className="flex flex-wrap gap-4 justify-center">
-              <Link 
-                to="/privacy-policy" 
+              <Link
+                to="/privacy-policy"
                 className="text-xs text-slate-500 hover:text-orange-500 transition-colors flex items-center gap-1"
               >
                 <Shield className="w-3 h-3" />
                 Privacy Policy
               </Link>
-              <Link 
-                to="/terms-of-service" 
+              <Link
+                to="/terms-of-service"
                 className="text-xs text-slate-500 hover:text-orange-500 transition-colors flex items-center gap-1"
               >
                 <FileText className="w-3 h-3" />
                 Terms of Service
               </Link>
-              <Link 
-                to="/cookies" 
+              <Link
+                to="/cookies"
                 className="text-xs text-slate-500 hover:text-orange-500 transition-colors flex items-center gap-1"
               >
                 <Cookie className="w-3 h-3" />
                 Cookie Policy
               </Link>
-              <Link 
-                to="/disclaimer" 
+              <Link
+                to="/disclaimer"
                 className="text-xs text-slate-500 hover:text-orange-500 transition-colors flex items-center gap-1"
               >
                 <AlertCircle className="w-3 h-3" />
