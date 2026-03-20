@@ -7,7 +7,7 @@ import HowItWorks from "@/components/HowItWorks";
 import BlogSection from "@/components/BlogSection";
 import FaqSection from "@/components/FaqSection";
 // import FeaturesSection from "@/components/FeaturesSection";
-// import FooterSection from "@/components/FooterSection";
+import FooterSection from "@/components/FooterSection";
 
 const Index = () => {
   const navigate = useNavigate();
@@ -82,7 +82,7 @@ const Index = () => {
       <FaqSection />
       
       {/* <FeaturesSection /> */}
-      {/* <FooterSection /> */}
+      <FooterSection />
     </div>
   );
 };
