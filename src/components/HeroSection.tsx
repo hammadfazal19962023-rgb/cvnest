@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { cn } from "@/lib/utils";
+import './HeroSection.css';
 
 const HeroSection = () => {
   const navigate = useNavigate();
@@ -186,7 +187,9 @@ const HeroSection = () => {
   ];
 
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-orange-50 via-yellow-50 to-pink-50 overflow-hidden">
+    <section
+      style={{ background: 'linear-gradient(to bottom right, #fff7ed, #fef9c3, #fdf2f8)' }}
+      className="relative min-h-screen bg-gradient-to-br from-orange-50 via-yellow-50 to-pink-50 overflow-hidden hero-gradient-bg">
       {/* Playful doodles - hidden on mobile */}
       <div className="hidden md:block absolute inset-0 opacity-30">
         <svg className="absolute top-20 left-10 w-32 h-32" viewBox="0 0 100 100">
@@ -251,7 +254,7 @@ const HeroSection = () => {
             <br />
             <span className="text-orange-500">but make it</span>
             <br />
-            <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">
+            <span style={{ color: 'linear-gradient(to right, #f97316, #ec4899, #a855f7)' }} className="bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 bg-clip-text text-transparent hero-gradient-text">
               actually fun
             </span>
           </motion.h1>
@@ -263,7 +266,7 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-xl text-slate-600 max-w-2xl mx-auto mb-12"
           >
-            No boring forms. No judgment. Just a friendly AI that helps you 
+            No boring forms. No judgment. Just a friendly AI that helps you
             brag about yourself (yes, you're that awesome).
           </motion.p>
 
@@ -277,7 +280,7 @@ const HeroSection = () => {
             <Button
               size="lg"
               onClick={() => navigate("/builder")}
-              className="bg-gradient-to-r from-orange-400 to-pink-400 hover:from-orange-500 hover:to-pink-500 text-white border-0 rounded-2xl px-10 py-7 text-lg shadow-xl shadow-orange-200"
+              className="hero-button-gradient bg-gradient-to-r from-orange-400 to-pink-400 hover:from-orange-500 hover:to-pink-500 text-white border-0 rounded-2xl px-10 py-7 text-lg shadow-xl shadow-orange-200"
             >
               <Rocket className="w-5 h-5 mr-2" />
               Start Your Adventure
@@ -398,7 +401,7 @@ const HeroSection = () => {
           </div>
         </DialogContent>
       </Dialog>
-    </section>
+    </section >
   );
 };
 

@@ -40,7 +40,7 @@ const BlogListing = () => {
             className="text-center mb-12"
           >
             <h1 className="text-4xl md:text-5xl font-black mb-4">
-              <span className="bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent hero-gradient-text">
                 AI CV Generator Blog
               </span>
             </h1>

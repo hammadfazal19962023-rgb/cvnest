@@ -81,14 +81,14 @@ const FaqSection = () => {
                 <div className="max-w-3xl mx-auto">
                     {/* Section Header */}
                     <motion.div
-                        initial={{ opacity: 0, y: 30 }}
+                        initial={{ opacity: 1, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6 }}
                         viewport={{ once: true }}
                         className="text-center mb-12"
                     >
                         <h2 className="text-3xl md:text-4xl font-black mb-4">
-                            <span className="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
+                            <span className="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent hero-gradient-text">
                                 Frequently Asked Questions
                             </span>
                         </h2>
@@ -112,7 +112,7 @@ const FaqSection = () => {
 
                     {/* Still Have Questions CTA */}
                     {/* <motion.div
-                        initial={{ opacity: 0 }}
+                        initial={{ opacity: 1 }}
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: 0.6, delay: 0.6 }}
                         viewport={{ once: true }}
@@ -148,7 +148,7 @@ const FaqItem = ({
 }) => {
     return (
         <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 1, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
             viewport={{ once: true }}
@@ -173,7 +173,7 @@ const FaqItem = ({
 
             {isExpanded && (
                 <motion.div
-                    initial={{ opacity: 0, height: 0 }}
+                    initial={{ opacity: 1, height: 0 }}
                     animate={{ opacity: 1, height: "auto" }}
                     exit={{ opacity: 0, height: 0 }}
                     transition={{ duration: 0.3 }}

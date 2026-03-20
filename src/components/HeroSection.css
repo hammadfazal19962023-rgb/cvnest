@@ -1,0 +1,20 @@
+.hero-gradient-bg {
+    background: linear-gradient(to bottom right, #fff7ed, #fef9c3, #fdf2f8) !important;
+}
+
+.hero-gradient-text {
+    background: linear-gradient(to right, #f97316, #ec4899, #a855f7) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    color: transparent !important;
+}
+
+.hero-button-gradient {
+    background: linear-gradient(to right, #f97316, #ec4899) !important;
+    transition: all 0.3s ease;
+}
+
+.hero-button-gradient:hover {
+    background: linear-gradient(to right, #f97316, #ec4899);
+    opacity: 0.9;
+}

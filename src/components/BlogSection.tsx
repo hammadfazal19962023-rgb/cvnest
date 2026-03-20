@@ -18,14 +18,14 @@ const BlogSection = () => {
                 <div className="max-w-6xl mx-auto">
                     {/* Section Header */}
                     <motion.div
-                        initial={{ opacity: 0, y: 30 }}
+                        initial={{ opacity: 1, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6 }}
                         viewport={{ once: true }}
                         className="text-center mb-12"
                     >
                         <h2 className="text-3xl md:text-4xl font-black mb-4">
-                            <span className="bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
+                            <span className="bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent hero-gradient-text">
                                 AI CV Generator Blog
                             </span>
                         </h2>
@@ -39,7 +39,7 @@ const BlogSection = () => {
                         {postsWithDates.map((post, index) => (
                             <motion.div
                                 key={post.id}
-                                initial={{ opacity: 0, y: 30 }}
+                                initial={{ opacity: 1, y: 30 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6, delay: index * 0.1 }}
                                 viewport={{ once: true }}
@@ -87,7 +87,7 @@ const BlogSection = () => {
 
                     {/* View All Button */}
                     <motion.div
-                        initial={{ opacity: 0, y: 20 }}
+                        initial={{ opacity: 1, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.4 }}
                         viewport={{ once: true }}
