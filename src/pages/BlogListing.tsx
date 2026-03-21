@@ -12,7 +12,7 @@ const BlogListing = () => {
   }));
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-yellow-50 to-pink-50 ">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-yellow-50 to-pink-50 bg-gradient-custom ">
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-sm border-b border-orange-100">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <button

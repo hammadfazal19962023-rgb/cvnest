@@ -189,7 +189,7 @@ const HeroSection = () => {
   return (
     <section
       style={{ background: 'linear-gradient(to bottom right, #fff7ed, #fef9c3, #fdf2f8)' }}
-      className="relative min-h-screen bg-gradient-to-br from-orange-50 via-yellow-50 to-pink-50 overflow-hidden hero-gradient-bg">
+      className="relative min-h-screen bg-gradient-to-br from-orange-50 via-yellow-50 to-pink-50 bg-gradient-custom overflow-hidden hero-gradient-bg">
       {/* Playful doodles - hidden on mobile */}
       <div className="hidden md:block absolute inset-0 opacity-30">
         <svg className="absolute top-20 left-10 w-32 h-32" viewBox="0 0 100 100">

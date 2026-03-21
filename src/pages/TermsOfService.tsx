@@ -7,7 +7,7 @@ const TermsOfService = () => {
 
   return (
     
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-yellow-50 to-pink-50 py-20">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-yellow-50 to-pink-50 bg-gradient-custom py-20">
       
       <div className="container mx-auto px-4 max-w-4xl">
         {/* Back Button */}

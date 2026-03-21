@@ -125,3 +125,8 @@
 .main-gradient-bg {
     background: #fdf2f8 !important;
 }
+
+.bg-gradient-custom {
+  background-color: #fff7ed !important;
+  /* background-image: linear-gradient(to bottom right, #fff7ed, #fef9c3, #fdf2f8); */
+}
