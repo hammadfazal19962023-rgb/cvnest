@@ -69,7 +69,7 @@ const Disclaimer = () => {
 
             <section>
               <h2 className="text-xl font-semibold mb-3">Contact Us</h2>
-              <p>If you have any questions about this Disclaimer, please contact us at: <a href="mailto:legal@cvnest.com" className="text-orange-500 hover:underline">legal@cvnest.com</a></p>
+              <p>If you have any questions about this Disclaimer, please contact us at: <a href="mailto:Cvnest29@gmail.com" className="text-orange-500 hover:underline">Cvnest29@gmail.com</a></p>
             </section>
           </div>
         </div>

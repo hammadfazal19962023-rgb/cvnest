@@ -73,7 +73,7 @@ const CookiePolicy = () => {
 
             <section>
               <h2 className="text-xl font-semibold mb-3">Contact Us</h2>
-              <p>If you have questions about our use of cookies, please contact us at: <a href="mailto:privacy@cvnest.com" className="text-orange-500 hover:underline">privacy@cvnest.com</a></p>
+              <p>If you have questions about our use of cookies, please contact us at: <a href="mailto:Cvnest29@gmail.com" className="text-orange-500 hover:underline">Cvnest29@gmail.com</a></p>
             </section>
           </div>
         </div>

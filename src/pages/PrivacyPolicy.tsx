@@ -187,7 +187,7 @@ const PrivacyPolicy = () => {
               </p>
               <div className="bg-gradient-to-r from-orange-50 to-pink-50 border border-orange-100 rounded-xl p-6">
                 <p className="mb-2 text-gray-700"><strong>CV Nest</strong></p>
-                <p className="mb-2 text-gray-600">Email: <a href="mailto:privacy@cvnest.com" className="text-orange-500 hover:underline">privacy@cvnest.com</a></p>
+                <p className="mb-2 text-gray-600">Email: <a href="mailto:Cvnest29@gmail.com" className="text-orange-500 hover:underline">Cvnest29@gmail.com</a></p>
                 <p className="text-gray-600">We will respond to your inquiry within 30 days of receipt.</p>
               </div>
             </section>
