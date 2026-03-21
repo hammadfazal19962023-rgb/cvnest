@@ -147,7 +147,14 @@ const About = () => {
 
                     {/* CTA Section */}
                     <div className="text-center">
-                        <div className="bg-gradient-to-r from-orange-500 to-pink-500 rounded-xl p-8 text-white">
+                        <div
+                            style={{
+                                background: "linear-gradient(to right, #f97316, #ec4899)",
+                                borderRadius: "0.75rem",
+                                padding: "2rem",
+                                color: "white"
+                            }}
+                        >
                             <h3 className="text-2xl font-bold mb-2">Ready to Build Your Dream CV?</h3>
                             <p className="mb-6 opacity-90">Join thousands of job seekers who already trust CV Nest</p>
                             <Link
