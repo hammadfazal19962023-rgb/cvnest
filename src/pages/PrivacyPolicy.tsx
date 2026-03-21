@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-yellow-50 to-pink-50 bg-gradient-custom">
       {/* Header */}
-      {/* <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-sm border-b border-orange-100">
+      <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-sm border-b border-orange-100">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <Link
             to="/"
@@ -20,18 +20,10 @@ const PrivacyPolicy = () => {
             </span>
           </Link>
         </div>
-      </header> */}
+      </header>
 
       {/* Main Content */}
       <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 max-w-4xl">
-        {/* Back Button */}
-        <button
-          onClick={() => navigate("/")}
-          className="mb-6 flex items-center gap-2 text-slate-600 hover:text-orange-500 transition-colors group"
-        >
-          <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-          <span className="text-sm">Back to Home</span>
-        </button>
         <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
           {/* Header Section */}
           <div className="flex items-center gap-3 mb-4">
