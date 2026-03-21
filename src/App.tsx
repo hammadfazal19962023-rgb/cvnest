@@ -14,6 +14,8 @@ import BlogPost from "./pages/BlogPost";
 import TermsOfService from "./pages/TermsOfService";
 import Cookies from "./pages/Cookies"
 import Disclaimer from "./pages/Disclaimer"
+import Contact from "./pages/Contact"
+import About from "./pages/About"
 import { useEffect } from "react";
 
 const queryClient = new QueryClient();
@@ -44,6 +46,8 @@ const App = () => (
             <Route path="/terms-of-service" element={<TermsOfService />} />
             <Route path="/cookies" element={<Cookies />} />
             <Route path="/disclaimer" element={<Disclaimer />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
             <Route path="/blog" element={<BlogListing />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

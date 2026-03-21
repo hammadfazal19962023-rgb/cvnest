@@ -121,3 +121,7 @@
   background-clip: text !important;
   color: transparent !important;
 }
+
+.main-gradient-bg {
+    background: linear-gradient(to bottom right, #fff7ed, #fef9c3, #fdf2f8) !important;
+}

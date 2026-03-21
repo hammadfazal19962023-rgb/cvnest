@@ -25,7 +25,7 @@ const BlogSection = () => {
                         className="text-center mb-12"
                     >
                         <h2 className="text-3xl md:text-4xl font-black mb-4">
-                            <span className="bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent hero-gradient-text">
+                            <span className="hero-gradient-text bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent hero-gradient-text">
                                 AI CV Generator Blog
                             </span>
                         </h2>

@@ -1,12 +1,14 @@
 // pages/TermsOfService.tsx
-import { ArrowLeft, FileText } from "lucide-react";
+import { ArrowLeft, FileText , Link } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 const TermsOfService = () => {
   const navigate = useNavigate();
 
   return (
+    
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-yellow-50 to-pink-50 py-20">
+      
       <div className="container mx-auto px-4 max-w-4xl">
         {/* Back Button */}
         <button

@@ -1,4 +1,4 @@
-import { Heart, Shield, FileText, Cookie, AlertCircle } from "lucide-react";
+import { Heart, Shield, FileText, Cookie, AlertCircle, Info, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 import cvNestLogo from "/public/android-chrome-512x512.png";
 
@@ -6,8 +6,8 @@ import cvNestLogo from "/public/android-chrome-512x512.png";
 
 const FooterSection = () => {
   return (
-    <footer className="relative bg-gradient-to-r from-orange-50/80 via-yellow-50/80 to-pink-50/80 border-t-2 border-orange-100 mt-20">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <footer className="relative main-gradient-bg bg-gradient-to-r from-orange-50/80 via-yellow-50/80 to-pink-50/80 border-t-2 border-orange-100 mt-20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 ">
         {/* Main footer content */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
           {/* Brand section */}
@@ -25,6 +25,25 @@ const FooterSection = () => {
             <p className="text-xs text-slate-500">
               Your friendly AI-powered CV builder
             </p>
+          </div>
+          <div className="text-center">
+            <h4 className="font-semibold text-slate-700 mb-3 text-sm">Quick Links</h4>
+            <div className="flex flex-col gap-2">
+              <Link
+                to="/about"
+                className="text-xs text-slate-500 hover:text-orange-500 transition-colors flex items-center gap-1 justify-center"
+              >
+                <Info className="w-3 h-3" />
+                About Us
+              </Link>
+              <Link
+                to="/contact"
+                className="text-xs text-slate-500 hover:text-orange-500 transition-colors flex items-center gap-1 justify-center"
+              >
+                <Mail className="w-3 h-3" />
+                Contact Us
+              </Link>
+            </div>
           </div>
 
           {/* Legal links */}

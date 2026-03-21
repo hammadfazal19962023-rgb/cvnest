@@ -86,7 +86,6 @@ const Builder = () => {
         }
       }
 
-
       if (!jobDescription) {
         setJobDescription(" ");
       }
@@ -115,101 +114,148 @@ const Builder = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background">
-      <header className="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-50">
-        <div className="container mx-auto px-6 py-4 flex items-center justify-between">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-yellow-50 to-pink-50">
+      <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-sm border-b border-orange-100">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
           <button
             onClick={() => navigate("/")}
-            className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
+            className="flex items-center gap-2 text-slate-600 hover:text-orange-500 transition-colors group"
           >
-            <ArrowLeft className="w-4 h-4" />
-            <span className="font-heading text-lg font-bold text-foreground">
+            <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+            <span className="font-heading text-lg font-bold bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
               CV Nest
             </span>
           </button>
           {user ? (
-            <Button variant="ghost" size="sm" onClick={() => { signOut(); toast.success("Signed out"); }}>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => { signOut(); toast.success("Signed out"); }}
+              className="text-slate-600 hover:text-orange-500 hover:bg-orange-50 transition-colors"
+            >
               <LogOut className="w-4 h-4 mr-1" /> Sign Out
             </Button>
           ) : (
-            <Button variant="ghost" size="sm" onClick={() => navigate("/auth")}>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => navigate("/auth")}
+              className="text-slate-600 hover:text-orange-500 hover:bg-orange-50 transition-colors"
+            >
               <LogIn className="w-4 h-4 mr-1" /> Sign In
             </Button>
           )}
         </div>
       </header>
 
-      <main className="container mx-auto px-6 py-12">
-        <StepIndicator steps={steps} currentStep={currentStep} />
+      <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* Main content with reduced width for ads */}
+        <div className="flex justify-center gap-6">
+          {/* Left Ad Space */}
+          {/* <div className="hidden lg:block w-40 flex-shrink-0 sticky top-24 self-start">
+            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-3 text-center border border-orange-100">
+              <div className="text-xs text-gray-400 mb-2">Advertisement</div>
+              <div className="w-full h-60 bg-gradient-to-br from-orange-100 to-pink-100 rounded-lg flex items-center justify-center">
+                <span className="text-xs text-gray-500">Ad Space</span>
+              </div>
+            </div>
+          </div> */}
 
-        <AnimatePresence mode="wait">
-          {currentStep === 0 && useManualEntry && (
-            <ManualEntryStep
-              key="manual"
-              profile={manualProfile}
-              onProfileChange={setManualProfile}
-              onNext={() => setCurrentStep(1)}
-              onBack={() => {
-                setUseManualEntry(false);
-                setFile(null);
-              }}
-            />
-          )}
-          {currentStep === 0 && !useManualEntry && (
-            <UploadStep
-              key="upload"
-              file={file}
-              onFileChange={setFile}
-              onNext={() => setCurrentStep(1)}
-              onManualEntry={() => {
-                setUseManualEntry(true);
-                setFile(null);
-              }}
-            />
-          )}
-          {currentStep === 1 && (
-            <JobDescriptionStep
-              key="job"
-              jobDescription={jobDescription}
-              onJobDescriptionChange={setJobDescription}
-              onNext={() => setCurrentStep(2)}
-              onBack={() => setCurrentStep(0)}
-            />
-          )}
-          {currentStep === 2 && (
-            <TemplateStep
-              key="template"
-              selectedTemplate={selectedTemplate}
-              onTemplateSelect={setSelectedTemplate}
-              onGenerate={handleGenerate}
-              onBack={() => setCurrentStep(1)}
-              isGenerating={isGenerating}
-            />
-          )}
-          {currentStep === 3 && cvData && !isEditMode && (
-            <PreviewStep
-              key="preview"
-              template={selectedTemplate}
-              cvData={cvData}
-              jobDescription={jobDescription}
-              onBack={() => setCurrentStep(2)}
-              onEdit={() => setIsEditMode(true)}
-            />
-          )}
-          {currentStep === 3 && cvData && isEditMode && (
-            <EditStep
-              key="edit"
-              cvData={cvData}
-              onCvDataChange={setCvData}
-              onSave={() => {
-                toast.success("CV updated successfully!");
-                setIsEditMode(false);
-              }}
-              onCancel={() => setIsEditMode(false)}
-            />
-          )}
-        </AnimatePresence>
+          {/* Main Content */}
+          <div className="w-full max-w-3xl">
+            <StepIndicator steps={steps} currentStep={currentStep} />
+
+            <div className="mt-8 bg-white rounded-2xl shadow-xl p-6 md:p-8">
+              <AnimatePresence mode="wait">
+                {currentStep === 0 && useManualEntry && (
+                  <ManualEntryStep
+                    key="manual"
+                    profile={manualProfile}
+                    onProfileChange={setManualProfile}
+                    onNext={() => setCurrentStep(1)}
+                    onBack={() => {
+                      setUseManualEntry(false);
+                      setFile(null);
+                    }}
+                  />
+                )}
+                {currentStep === 0 && !useManualEntry && (
+                  <UploadStep
+                    key="upload"
+                    file={file}
+                    onFileChange={setFile}
+                    onNext={() => setCurrentStep(1)}
+                    onManualEntry={() => {
+                      setUseManualEntry(true);
+                      setFile(null);
+                    }}
+                  />
+                )}
+                {currentStep === 1 && (
+                  <JobDescriptionStep
+                    key="job"
+                    jobDescription={jobDescription}
+                    onJobDescriptionChange={setJobDescription}
+                    onNext={() => setCurrentStep(2)}
+                    onBack={() => setCurrentStep(0)}
+                  />
+                )}
+                {currentStep === 2 && (
+                  <TemplateStep
+                    key="template"
+                    selectedTemplate={selectedTemplate}
+                    onTemplateSelect={setSelectedTemplate}
+                    onGenerate={handleGenerate}
+                    onBack={() => setCurrentStep(1)}
+                    isGenerating={isGenerating}
+                  />
+                )}
+                {currentStep === 3 && cvData && !isEditMode && (
+                  <PreviewStep
+                    key="preview"
+                    template={selectedTemplate}
+                    cvData={cvData}
+                    jobDescription={jobDescription}
+                    onBack={() => setCurrentStep(2)}
+                    onEdit={() => setIsEditMode(true)}
+                  />
+                )}
+                {currentStep === 3 && cvData && isEditMode && (
+                  <EditStep
+                    key="edit"
+                    cvData={cvData}
+                    onCvDataChange={setCvData}
+                    onSave={() => {
+                      toast.success("CV updated successfully!");
+                      setIsEditMode(false);
+                    }}
+                    onCancel={() => setIsEditMode(false)}
+                  />
+                )}
+              </AnimatePresence>
+            </div>
+          </div>
+
+          {/* Right Ad Space */}
+          {/* <div className="hidden lg:block w-40 flex-shrink-0 sticky top-24 self-start">
+            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-3 text-center border border-orange-100">
+              <div className="text-xs text-gray-400 mb-2">Advertisement</div>
+              <div className="w-full h-60 bg-gradient-to-br from-orange-100 to-pink-100 rounded-lg flex items-center justify-center">
+                <span className="text-xs text-gray-500">Ad Space</span>
+              </div>
+            </div>
+          </div> */}
+        </div>
       </main>
+      <footer className="relative main-gradient-bg bg-gradient-to-r from-orange-50/80 via-yellow-50/80 to-pink-50/80 border-t-2 border-orange-100 mt-12">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="text-center">
+            <p className="text-xs text-slate-400">
+              © {new Date().getFullYear()} CV Nest. Free forever.
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
