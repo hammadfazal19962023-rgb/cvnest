@@ -122,7 +122,7 @@ const Builder = () => {
             className="flex items-center gap-2 text-slate-600 hover:text-orange-500 transition-colors group"
           >
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-            <span className="font-heading text-lg font-bold bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
+            <span className="hero-gradient-text font-heading text-lg font-bold bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
               CV Nest
             </span>
           </button>
