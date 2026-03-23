@@ -16,6 +16,7 @@ import Cookies from "./pages/Cookies"
 import Disclaimer from "./pages/Disclaimer"
 import Contact from "./pages/Contact"
 import About from "./pages/About"
+import GoogleAnalytics from "./components/GoogleAnalytics";
 import { useEffect } from "react";
 
 const queryClient = new QueryClient();
@@ -36,6 +37,7 @@ const App = () => (
         <Toaster />
         <Sonner />
         <BrowserRouter>
+          <GoogleAnalytics /> {/* This now loads GA dynamically with your env ID */}
           <ScrollToTop />
 
           <Routes>
