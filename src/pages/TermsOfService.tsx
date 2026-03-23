@@ -75,7 +75,7 @@ const TermsOfService = () => {
 
             <section>
               <h2 className="text-xl font-semibold text-gray-800 mb-3">9. Contact</h2>
-              <p className="text-gray-600">Questions? Reach us at: <a href="mailto:Cvnest29@gmail.com" className="text-orange-500 hover:underline">Cvnest29@gmail.com</a></p>
+              <p className="text-gray-600">Questions? Reach us at: <a href="mailto:cvnest29@gmail.com" className="text-orange-500 hover:underline">cvnest29@gmail.com</a></p>
             </section>
           </div>
         </div>

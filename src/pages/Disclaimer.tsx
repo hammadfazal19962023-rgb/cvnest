@@ -75,7 +75,7 @@ const Disclaimer = () => {
 
             <section>
               <h2 className="text-xl font-semibold text-gray-800 mb-3">Contact Us</h2>
-              <p className="text-gray-600">If you have any questions about this Disclaimer, please contact us at: <a href="mailto:Cvnest29@gmail.com" className="text-orange-500 hover:underline">Cvnest29@gmail.com</a></p>
+              <p className="text-gray-600">If you have any questions about this Disclaimer, please contact us at: <a href="mailto:cvnest29@gmail.com" className="text-orange-500 hover:underline">cvnest29@gmail.com</a></p>
             </section>
           </div>
         </div>
