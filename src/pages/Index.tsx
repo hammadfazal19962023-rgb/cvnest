@@ -7,7 +7,7 @@ import HowItWorks from "@/components/HowItWorks";
 import BlogSection from "@/components/BlogSection";
 import FaqSection from "@/components/FaqSection";
 // import FeaturesSection from "@/components/FeaturesSection";
-// import FooterSection from "@/components/FooterSection";
+import FooterSection from "@/components/FooterSection";
 
 const Index = () => {
   const navigate = useNavigate();
@@ -81,8 +81,30 @@ const Index = () => {
       <BlogSection />
       <FaqSection />
       
+      {/* Ad Space - Placed above footer */}
+      {/* <section className="bg-gradient-to-br from-orange-50 via-yellow-50 to-pink-50 py-16">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl p-8 text-center border border-orange-100">
+              <div className="mb-4">
+                <span className="text-sm text-gray-400 uppercase tracking-wider">Advertisement</span>
+              </div>
+              <div className="bg-gradient-to-r from-orange-100 to-pink-100 rounded-xl p-12 flex items-center justify-center min-h-[200px]">
+                <div className="text-center">
+                  <p className="text-gray-500 mb-2">Your Ad Could Be Here</p>
+                  <p className="text-xs text-gray-400">Contact us for advertising opportunities</p>
+                </div>
+              </div>
+              <p className="text-xs text-gray-400 mt-4">
+                Support CV Nest and help us keep our service free for everyone
+              </p>
+            </div>
+          </div>
+        </div>
+      </section> */}
+      
       {/* <FeaturesSection /> */}
-      {/* <FooterSection /> */}
+      <FooterSection />
     </div>
   );
 };

@@ -87,7 +87,12 @@
     font-family: var(--font-body);
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: var(--font-heading);
   }
 }
@@ -96,13 +101,32 @@
   .gradient-hero {
     background: var(--gradient-hero);
   }
+
   .gradient-accent {
     background: var(--gradient-accent);
   }
+
   .shadow-card {
     box-shadow: var(--shadow-card);
   }
+
   .shadow-elevated {
     box-shadow: var(--shadow-elevated);
   }
+}
+
+.hero-gradient-text {
+  background: linear-gradient(to right, #f97316, #ec4899, #a855f7) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+}
+
+.main-gradient-bg {
+    background: #fdf2f8 !important;
+}
+
+.bg-gradient-custom {
+  background-color: #fff7ed !important;
+  /* background-image: linear-gradient(to bottom right, #fff7ed, #fef9c3, #fdf2f8); */
 }
