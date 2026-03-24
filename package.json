@@ -10,7 +10,6 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
-    "postbuild": "react-snap",
     "test:watch": "vitest"
   },
   "dependencies": {
