@@ -1,6 +1,5 @@
 import { Heart, Shield, FileText, Cookie, AlertCircle, Info, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
-import cvNestLogo from "/public/android-chrome-512x512.png";
 
 
 
@@ -14,7 +13,7 @@ const FooterSection = () => {
           <div className="text-center md:text-left">
             <Link to="/" className="flex items-center gap-2 justify-center md:justify-start mb-3 group">
               <img
-                src={cvNestLogo}
+                src="/android-chrome-512x512.png"
                 alt="CV Nest Logo"
                 className="w-8 h-8 object-contain group-hover:scale-110 transition-transform"
               />
