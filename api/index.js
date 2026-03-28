@@ -1,26 +1,26 @@
 import fs from 'node:fs'
 import path from 'node:path'
+import { fileURLToPath } from 'node:url'
 import express from 'express'
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 const app = express()
 
-const distClient = path.resolve(process.cwd(), 'dist/client')
-const distServer = path.resolve(process.cwd(), 'dist/server')
+const distClient = path.resolve(__dirname, '../dist/client')
+const distServer = path.resolve(__dirname, '../dist/server')
 
-// serve static files
 app.use(express.static(distClient, { index: false }))
 
 app.use('*', async (req, res) => {
   try {
     const url = req.originalUrl
 
-    // read built HTML template
     const template = fs.readFileSync(
       path.resolve(distClient, 'index.html'),
       'utf-8'
     )
 
-    // import built server bundle
     const { render } = await import(
       path.resolve(distServer, 'entry-server.js')
     )
