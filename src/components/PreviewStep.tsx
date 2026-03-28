@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Download, RotateCcw, Edit2, CheckCircle2, AlertCircle, ChevronDown, ChevronUp } from "lucide-react";
 import { toast } from "sonner";
 import { useState } from "react";
-import html2pdf from "html2pdf.js";
+// import html2pdf from "html2pdf.js";
 import type { CVData } from "@/lib/cv-types";
 import { renderCVTemplate } from "@/components/cv-templates";
 import { calculateATSScore, getScoreLabel } from "@/lib/ats-score";
@@ -29,6 +29,10 @@ const PreviewStep = ({ template, cvData, jobDescription, onBack, onEdit }: Previ
     if (!element) return;
     toast.loading("Generating PDF...", { id: "pdf" });
     try {
+      // ✅ dynamic import — only runs in browser, never on server
+      const html2pdfModule = await import("html2pdf.js");
+      const html2pdf = html2pdfModule.default;
+
       await html2pdf()
         .set({
           margin: 0,
@@ -49,10 +53,10 @@ const PreviewStep = ({ template, cvData, jobDescription, onBack, onEdit }: Previ
     atsResult.score >= 80
       ? "bg-green-500"
       : atsResult.score >= 60
-      ? "bg-yellow-500"
-      : atsResult.score >= 40
-      ? "bg-orange-500"
-      : "bg-red-500";
+        ? "bg-yellow-500"
+        : atsResult.score >= 40
+          ? "bg-orange-500"
+          : "bg-red-500";
 
   return (
     <motion.div

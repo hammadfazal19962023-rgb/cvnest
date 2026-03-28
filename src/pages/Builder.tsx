@@ -14,7 +14,7 @@ import TemplateStep from "@/components/TemplateStep";
 import PreviewStep from "@/components/PreviewStep";
 import EditStep from "@/components/EditStep";
 import { extractTextFromPdf } from "@/lib/pdf-utils";
-import { supabase } from "@/integrations/supabase/client";
+import { supabase } from "@/integrations/supabase/index";
 import type { CVData } from "@/lib/cv-types";
 
 const steps = ["Upload", "Job Description", "Template", "Preview"];
