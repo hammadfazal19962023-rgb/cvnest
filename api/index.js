@@ -10,7 +10,24 @@ const app = express()
 const distClient = path.resolve(__dirname, '../dist/client')
 const distServer = path.resolve(__dirname, '../dist/server')
 
-app.use(express.static(distClient, { index: false }))
+// ✅ explicitly serve assets with correct headers
+app.use('/assets', express.static(path.resolve(distClient, 'assets'), {
+  maxAge: '1y',
+  immutable: true,
+}))
+
+// ✅ serve everything else in dist/client
+app.use(express.static(distClient, { 
+  index: false,
+  setHeaders: (res, filePath) => {
+    if (filePath.endsWith('.css')) {
+      res.setHeader('Content-Type', 'text/css')
+    }
+    if (filePath.endsWith('.js')) {
+      res.setHeader('Content-Type', 'application/javascript')
+    }
+  }
+}))
 
 app.use('*', async (req, res) => {
   try {
