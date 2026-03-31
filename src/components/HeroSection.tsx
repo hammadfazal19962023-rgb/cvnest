@@ -5,24 +5,24 @@ import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { cn } from "@/lib/utils";
-import { useIsClient } from "@/hooks/useIsClient";  // ✅ add this
+// import { useIsClient } from "@/hooks/useIsClient";  // ✅ add this
 import './HeroSection.css';
 
 const HeroSection = () => {
   const navigate = useNavigate();
-  const isClient = useIsClient();  // ✅ add this
+  // const isClient = useIsClient();  // ✅ add this
   const [showTemplates, setShowTemplates] = useState(false);
   const [selectedTemplate, setSelectedTemplate] = useState<string>("");
 
   // ✅ only animate on client, server gets final state immediately
   const motionProps = (delay = 0) => ({
-    initial: isClient ? { opacity: 0, y: 30 } : false,
+    // initial: isClient ? { opacity: 0, y: 30 } : false,
     animate: { opacity: 1, y: 0 },
     transition: { duration: 0.6, delay },
   })
 
   const badgeProps = {
-    initial: isClient ? { scale: 0 } : false,
+    // initial: isClient ? { scale: 0 } : false,
     animate: { scale: 1 },
     transition: { type: "spring" as const, stiffness: 260, damping: 20 },
   }
@@ -299,7 +299,7 @@ const HeroSection = () => {
 
             {/* Fun fact */}
             <motion.p
-              initial={isClient ? { opacity: 0 } : false}
+              // initial={isClient ? { opacity: 0 } : false}
               animate={{ opacity: 1 }}
               transition={{ delay: 1 }}
               className="mt-12 text-sm text-slate-400 mb-5"
