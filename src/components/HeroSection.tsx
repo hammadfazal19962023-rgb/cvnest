@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { cn } from "@/lib/utils";
-import { useIsClient } from "@/hooks/UseIsClient";  // ✅ add this
+import { useIsClient } from "@/hooks/useIsClient";  // ✅ add this
 import './HeroSection.css';
 
 const HeroSection = () => {
