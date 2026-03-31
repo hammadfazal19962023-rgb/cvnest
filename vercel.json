@@ -14,6 +14,14 @@
       "dest": "/dist/client/assets/$1"
     },
     {
+      "src": "/robots.txt",
+      "dest": "/dist/client/robots.txt"
+    },
+    {
+      "src": "/sitemap.xml",
+      "dest": "/dist/client/sitemap.xml"
+    },
+    {
       "src": "/(.*\\.(js|css|png|jpg|jpeg|gif|ico|svg|woff2|woff|ttf|eot|map))",
       "dest": "/dist/client/$1"
     },
