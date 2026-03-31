@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { supabase } from "@/integrations/supabase/client";
+import { supabase } from "@/integrations/supabase/index";
 import { useAuth } from "@/hooks/useAuth";
 import { toast } from "sonner";
 import { Save, FolderOpen, Trash2, LogIn } from "lucide-react";

@@ -24,9 +24,12 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  ssr: {
+    external: ["html2pdf.js", "pdfjs-dist"],
+    noExternal: ["sonner"],
+  },
   build: {
     target: "es2015",
-    outDir: "dist",
     emptyOutDir: true,
   },
 }));

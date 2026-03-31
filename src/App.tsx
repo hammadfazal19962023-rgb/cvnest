@@ -2,7 +2,8 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
+// BrowserRouter
 import { AuthProvider } from "@/hooks/useAuth";
 import Index from "./pages/Index";
 import Builder from "./pages/Builder";
@@ -36,7 +37,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        {/* <BrowserRouter> */}
           <GoogleAnalytics /> {/* This now loads GA dynamically with your env ID */}
           <ScrollToTop />
 
@@ -55,7 +56,7 @@ const App = () => (
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
-        </BrowserRouter>
+        {/* </BrowserRouter> */}
       </TooltipProvider>
     </AuthProvider>
   </QueryClientProvider>
