@@ -10,13 +10,9 @@
     }
   },
   "routes": [
-     {
+    {
       "src": "/ads.txt",
       "dest": "/dist/client/ads.txt"
-    },
-      {
-      "src": "/ads.txt",
-      "dest": "/ads.txt"
     },
     {
       "src": "/(.*)",
