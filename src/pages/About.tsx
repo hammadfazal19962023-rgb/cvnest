@@ -112,7 +112,7 @@ const About = () => {
                     </div>
 
                     {/* Stats Section */}
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 text-center">
+                    {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 text-center">
                         <div>
                             <div className="text-3xl font-black text-orange-500">10K+</div>
                             <p className="text-sm text-gray-500">CVs Created</p>
@@ -129,12 +129,24 @@ const About = () => {
                             <div className="text-3xl font-black text-purple-500">24/7</div>
                             <p className="text-sm text-gray-500">AI Support</p>
                         </div>
-                    </div>
+                    </div> */}
+                    {/* <div className="mb-2 bg-orange-50 rounded-xl p-6 text-center border border-orange-100">
+                        <p className="text-gray-700">
+                            CV Nest is a solo-founder project built to solve a real problem:
+                            CV building is stressful, expensive, and unnecessarily complicated.
+                            We launched in 2025 and are growing every day thanks to job seekers like you.
+                        </p>
+                    </div> */}
 
                     {/* Team Section */}
                     <div className="mb-12">
                         <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">Made with ❤️ by Passionate People</h2>
                         <div className="bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl p-6 text-center border border-orange-100">
+                            <p className="text-gray-700">
+                                CV Nest is a solo-founder project built to solve a real problem:
+                                CV building is stressful, expensive, and unnecessarily complicated.
+                                We launched in 2025 and are growing every day thanks to job seekers like you.
+                            </p>
                             <div className="text-5xl mb-3">🤝</div>
                             <p className="text-gray-700 mb-2">
                                 We're a small team of designers, developers, and career enthusiasts who believe everyone deserves a shot at their dream job.
