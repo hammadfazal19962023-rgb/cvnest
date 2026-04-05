@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
+import { Menu, X, Sparkles } from "lucide-react";
 import HeroSection from "@/components/HeroSection";
 import HowItWorks from "@/components/HowItWorks";
 import BlogSection from "@/components/BlogSection";
@@ -9,10 +10,12 @@ import FaqSection from "@/components/FaqSection";
 // import FeaturesSection from "@/components/FeaturesSection";
 import FooterSection from "@/components/FooterSection";
 
+
 const Index = () => {
   const navigate = useNavigate();
   const toastIdRef = useRef<string | number | null>(null);
   const [showCookieBanner, setShowCookieBanner] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const consent = localStorage.getItem("cookie_consent");
@@ -80,7 +83,70 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
+      {/* ===== RESPONSIVE HEADER ===== */}
+      <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-sm border-b border-orange-100">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <div className="flex items-center justify-between">
+            {/* Logo with gradient text */}
+            <a
+              href="/"
+              className="flex items-center gap-2 text-xl sm:text-2xl font-black bg-gradient-to-r from-orange-500 via-pink-500 to-orange-500 bg-clip-text text-transparent hover:opacity-90 transition-all hover:scale-105 duration-300 group"
+            >
+              <div className="hidden sm:block">
+                <img
+                  src="/android-chrome-512x512.png"
+                  alt="CV Nest Logo"
+                  className="w-8 h-8"
+                />
+              </div>
+              {/* CV Nest */}
+            </a>
 
+            {/* Desktop Navigation */}
+            <nav className="hidden sm:flex items-center gap-8 lg:gap-10">
+              {["Builder", "Blog", "About", "Contact"].map((item) => (
+                <a
+                  key={item}
+                  href={`/${item === "Builder" ? "builder" : item.toLowerCase()}`}
+                  className="relative text-sm font-semibold text-gray-700 hover:text-transparent hover:bg-gradient-to-r hover:from-orange-500 hover:to-pink-500 hover:bg-clip-text transition-all duration-300 group"
+                >
+                  {item}
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-orange-500 to-pink-500 group-hover:w-full transition-all duration-300 rounded-full" />
+                </a>
+              ))}
+            </nav>
+
+            {/* Mobile Menu Button */}
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="sm:hidden p-2 rounded-lg bg-orange-50 hover:bg-orange-100 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-orange-300"
+              aria-label="Toggle menu"
+            >
+              {mobileMenuOpen ? (
+                <X className="w-5 h-5 text-orange-600" />
+              ) : (
+                <Menu className="w-5 h-5 text-orange-600" />
+              )}
+            </button>
+          </div>
+
+          {/* Mobile Navigation */}
+          {mobileMenuOpen && (
+            <nav className="sm:hidden mt-4 space-y-2 pb-3 animate-in fade-in slide-in-from-top-2 duration-200">
+              {["Builder", "Blog", "About", "Contact"].map((item) => (
+                <a
+                  key={item}
+                  href={`/${item === "Builder" ? "builder" : item.toLowerCase()}`}
+                  className="block px-4 py-3 rounded-lg text-sm font-semibold text-gray-700 bg-orange-50/80 hover:bg-orange-100 border border-orange-100 transition-all duration-200"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  {item}
+                </a>
+              ))}
+            </nav>
+          )}
+        </div>
+      </header>
       {/* // In the JSX return: */}
       {showCookieBanner && (
         <div style={{
