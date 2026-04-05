@@ -16,14 +16,32 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          access_key: "51b54601-0fd7-48f0-ab70-ba4c630212f1", // free at web3forms.com
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+        }),
+      });
+
+      if (response.ok) {
+        setSubmitted(true);
+        setFormData({ name: "", email: "", subject: "", message: "" });
+        setTimeout(() => setSubmitted(false), 5000);
+      } else {
+        throw new Error("Failed to send");
+      }
+    } catch {
+      alert("Failed to send message. Please email us directly at cvnest29@gmail.com");
+    } finally {
       setIsSubmitting(false);
-      setSubmitted(true);
-      setFormData({ name: "", email: "", subject: "", message: "" });
-      setTimeout(() => setSubmitted(false), 3000);
-    }, 1000);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {

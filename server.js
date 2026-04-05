@@ -89,6 +89,11 @@ async function createServer() {
       }
     }))
 
+    app.get('/ads.txt', (req, res) => {
+      res.type('text/plain');
+      res.send('google.com, pub-3417620747555646, DIRECT, f08c47fec0942fa0');
+    });
+
     app.use('*', async (req, res) => {
       try {
         const url = req.originalUrl
