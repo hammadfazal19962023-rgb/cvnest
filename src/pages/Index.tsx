@@ -8,6 +8,7 @@ import HowItWorks from "@/components/HowItWorks";
 import BlogSection from "@/components/BlogSection";
 import FaqSection from "@/components/FaqSection";
 // import FeaturesSection from "@/components/FeaturesSection";
+import HomeContent from "@/components/HomeContent";
 import FooterSection from "@/components/FooterSection";
 
 
@@ -175,6 +176,7 @@ const Index = () => {
 
       {/* Additional sections */}
       <HowItWorks />
+      <HomeContent />
       <BlogSection />
       <FaqSection />
 

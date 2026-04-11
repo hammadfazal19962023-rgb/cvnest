@@ -28,8 +28,8 @@ const HowItWorks = () => {
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: 0.25 }}
-      className="mb-16"
-    >
+      // className="mb-16"
+      >
       <div className="bg-white/60 backdrop-blur-sm rounded-3xl p-8 border-2 border-white">
         <h2 className="text-2xl font-bold text-slate-800 mb-6 text-center">How It Works</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
