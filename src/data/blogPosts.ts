@@ -289,8 +289,8 @@ Understanding ATS isn't about gaming the system. It's about making sure your gen
         readTime: "13 min read",
         category: "ATS & Job Search",
         slug: "ats-explained-how-applicant-tracking-systems-work",
-        author: "Sarah Mitchell",
-        authorRole: "Career Coach & Former Recruiter"
+        author: "James Wilson",
+        authorRole: "Senior Recruitment Consultant"
     },
     {
         id: 3,
@@ -437,8 +437,8 @@ The conversion from LinkedIn to CV is ultimately about editing for purpose: taki
         readTime: "14 min read",
         category: "LinkedIn & CV",
         slug: "linkedin-to-cv-how-to-convert-your-profile",
-        author: "Sarah Mitchell",
-        authorRole: "Career Coach & Former Recruiter"
+        author: "Maria Chen",
+        authorRole: "HR Technology Specialist"
     },
     {
         id: 4,
@@ -588,8 +588,8 @@ The template matters, but it matters less than the content. A mediocre template 
         readTime: "13 min read",
         category: "CV Templates",
         slug: "cv-templates-which-style-is-right-for-your-industry",
-        author: "Sarah Mitchell",
-        authorRole: "Career Coach & Former Recruiter"
+        author: "David Okonkwo",
+        authorRole: "LinkedIn Strategy Expert & Career Coach"
     },
     {
         id: 5,
@@ -735,8 +735,8 @@ Whatever your starting point, the path forward is the same: be specific, be hone
         readTime: "14 min read",
         category: "Career Advice",
         slug: "how-to-write-a-cv-with-no-experience",
-        author: "Sarah Mitchell",
-        authorRole: "Career Coach & Former Recruiter"
+        author: "Emma Richardson",
+        authorRole: "Design & Careers Writer"
     },
     {
         id: 6,
@@ -873,8 +873,8 @@ Check your CV against this list. Fix the issues you find. Then focus the majorit
         readTime: "15 min read",
         category: "CV Mistakes",
         slug: "cv-mistakes-costing-you-interviews",
-        author: "Sarah Mitchell",
-        authorRole: "Career Coach & Former Recruiter"
+        author: "Ayesha Khan",
+        authorRole: "Graduate Career Advisor"
     },
     {
         id: 7,
@@ -1028,7 +1028,7 @@ AI is transforming CV writing in genuine and useful ways. The people who benefit
         readTime: "14 min read",
         category: "AI & Career Tools",
         slug: "how-to-use-ai-to-write-your-cv",
-        author: "Sarah Mitchell",
-        authorRole: "Career Coach & Former Recruiter"
+        author: "Robert Taylor",
+        authorRole: "Hiring Manager & Career Consultant"
     }
 ];
