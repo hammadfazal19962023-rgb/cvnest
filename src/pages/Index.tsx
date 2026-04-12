@@ -16,6 +16,7 @@ import FooterSection from "@/components/FooterSection";
 const Index = () => {
   const navigate = useNavigate();
   const [showCookieBanner, setShowCookieBanner] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
     // Only show on client side
@@ -56,36 +57,119 @@ const Index = () => {
             textDecoration: "none",
           }}
         >
-          CV Nest
+          <img
+            src="/android-chrome-512x512.png"
+            alt="CV Nest Logo"
+            className="w-8 h-8 object-contain group-hover:scale-110 transition-transform"
+          />
+          {/* CV Nest */}
         </a>
-        <nav style={{ display: "flex", gap: "1.5rem", alignItems: "center" }}>
-          <a href="/builder" style={{ color: "#475569", textDecoration: "none", fontSize: "14px", fontWeight: 500 }}>
+        {/* Mobile hamburger (visible on small screens) */}
+        <button
+          onClick={() => setMobileOpen((s) => !s)}
+          aria-label={mobileOpen ? "Close menu" : "Open menu"}
+          className="md:hidden"
+          style={{ background: "transparent", border: "none", padding: 6, cursor: "pointer" }}
+        >
+          {mobileOpen ? (
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 6L18 18" stroke="#374151" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M6 18L18 6" stroke="#374151" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          ) : (
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 6H20" stroke="#374151" strokeWidth="2" strokeLinecap="round" />
+              <path d="M4 12H20" stroke="#374151" strokeWidth="2" strokeLinecap="round" />
+              <path d="M4 18H20" stroke="#374151" strokeWidth="2" strokeLinecap="round" />
+            </svg>
+          )}
+        </button>
+
+        <nav className="hidden md:flex md:gap-6 items-center" style={{ alignItems: "center" }}>
+          <a href="/builder" className="text-slate-600 no-underline text-sm font-medium">
             Builder
           </a>
-          <a href="/blog" style={{ color: "#475569", textDecoration: "none", fontSize: "14px", fontWeight: 500 }}>
+          <a href="/blog" className="text-slate-600 no-underline text-sm font-medium">
             Blog
           </a>
-          <a href="/about" style={{ color: "#475569", textDecoration: "none", fontSize: "14px", fontWeight: 500 }}>
+          <a href="/about" className="text-slate-600 no-underline text-sm font-medium">
             About
           </a>
-          <a href="/contact" style={{ color: "#475569", textDecoration: "none", fontSize: "14px", fontWeight: 500 }}>
+          <a href="/contact" className="text-slate-600 no-underline text-sm font-medium">
             Contact
           </a>
           <a
             href="/builder"
-            style={{
-              background: "linear-gradient(to right, #f97316, #ec4899)",
-              color: "white",
-              textDecoration: "none",
-              fontSize: "13px",
-              fontWeight: 600,
-              padding: "6px 16px",
-              borderRadius: "8px",
-            }}
+            className="text-white text-xs font-semibold"
+            style={{ background: "linear-gradient(to right, #f97316, #ec4899)", padding: "6px 16px", borderRadius: 8 }}
           >
             Build my CV →
           </a>
         </nav>
+
+        {/* Mobile dropdown menu (always mounted so transitions work) */}
+        <div
+          className={"md:hidden absolute left-0 right-0 z-60 transform-gpu transition-all duration-200 ease-out" +
+            (mobileOpen ? " opacity-100 translate-y-0 pointer-events-auto" : " opacity-0 -translate-y-2 pointer-events-none")}
+          aria-hidden={!mobileOpen}
+          style={{
+            top: "64px",
+            background: "rgba(255,255,255,0.98)",
+            borderBottom: "1px solid #f3e9e0",
+            padding: "12px 16px",
+            display: "flex",
+            flexDirection: "column",
+            gap: "10px",
+            boxShadow: "0 8px 24px rgba(15,23,42,0.08)",
+            borderBottomLeftRadius: 8,
+            borderBottomRightRadius: 8,
+            maxWidth: 520,
+            margin: "0 auto",
+            alignItems: "center",
+            textAlign: "center",
+          }}
+        >
+          <a
+            href="/builder"
+            onClick={() => setMobileOpen(false)}
+            className="w-full transition transform duration-150 hover:-translate-y-1 hover:text-[#fb923c] hover:bg-slate-50 rounded-md"
+            style={{ color: "#475569", textDecoration: "none", fontSize: "15px", padding: "10px 8px" }}
+          >
+            Builder
+          </a>
+          <a
+            href="/blog"
+            onClick={() => setMobileOpen(false)}
+            className="w-full transition transform duration-150 hover:-translate-y-1 hover:text-[#fb923c] hover:bg-slate-50 rounded-md"
+            style={{ color: "#475569", textDecoration: "none", fontSize: "15px", padding: "10px 8px" }}
+          >
+            Blog
+          </a>
+          <a
+            href="/about"
+            onClick={() => setMobileOpen(false)}
+            className="w-full transition transform duration-150 hover:-translate-y-1 hover:text-[#fb923c] hover:bg-slate-50 rounded-md"
+            style={{ color: "#475569", textDecoration: "none", fontSize: "15px", padding: "10px 8px" }}
+          >
+            About
+          </a>
+          <a
+            href="/contact"
+            onClick={() => setMobileOpen(false)}
+            className="w-full transition transform duration-150 hover:-translate-y-1 hover:text-[#fb923c] hover:bg-slate-50 rounded-md"
+            style={{ color: "#475569", textDecoration: "none", fontSize: "15px", padding: "10px 8px" }}
+          >
+            Contact
+          </a>
+          <a
+            href="/builder"
+            onClick={() => setMobileOpen(false)}
+            className="w-full shadow-sm transition transform duration-150 hover:scale-102 rounded-md"
+            style={{ background: "linear-gradient(to right, #f97316, #ec4899)", color: "white", padding: "10px 14px", textDecoration: "none", fontWeight: 600 }}
+          >
+            Build my CV →
+          </a>
+        </div>
       </header>
 
       {/* ── Page sections ── */}
