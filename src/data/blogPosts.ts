@@ -12,7 +12,7 @@ export const getRelativeDate = (daysAgo: number) => {
 export const blogPosts = [
     {
         id: 1,
-        title: "How to Write a CV That Actually Gets You Interviews in 2025",
+        title: "How to Write a CV That Actually Gets You Interviews in 2026",
         excerpt: "Most CVs get rejected in under 10 seconds. Here's exactly what hiring managers look for — and how to make yours impossible to ignore.",
         content: `You spend hours crafting your CV. You list every job, every skill, every qualification. You hit send — and hear nothing back.
 
@@ -74,7 +74,7 @@ For recent graduates with limited work experience, the education section can com
 
 ### 5. Skills
 
-A skills section works best as a short, scannable list rather than a paragraph. Separate technical skills (software, programming languages, tools) from soft skills (leadership, communication, project management). However, be selective — listing "Microsoft Word" as a skill in 2025 wastes space and signals a lack of awareness.
+A skills section works best as a short, scannable list rather than a paragraph. Separate technical skills (software, programming languages, tools) from soft skills (leadership, communication, project management). However, be selective — listing "Microsoft Word" as a skill in 2026 wastes space and signals a lack of awareness.
 
 ## ATS Optimisation: How to Get Past the Robots
 
@@ -128,7 +128,7 @@ This approach means you're never starting from scratch, but each application sti
 
 ## How AI Tools Are Changing CV Writing
 
-In 2025, AI-powered CV tools like CV Nest have made it significantly easier to create strong, ATS-optimised CVs in a fraction of the time it previously took. These tools can analyse your experience, suggest stronger action verbs, help quantify achievements, and ensure your formatting is clean and professional.
+In 2026, AI-powered CV tools like CV Nest have made it significantly easier to create strong, ATS-optimised CVs in a fraction of the time it previously took. These tools can analyse your experience, suggest stronger action verbs, help quantify achievements, and ensure your formatting is clean and professional.
 
 The most effective approach is to use AI as a starting point and a sense-checker, then apply your own judgement and personalisation. The tool handles structure and language; you provide the authentic detail and insight that makes the CV genuinely yours.
 
@@ -878,7 +878,7 @@ Check your CV against this list. Fix the issues you find. Then focus the majorit
     },
     {
         id: 7,
-        title: "How to Use AI to Write Your CV: A Practical Guide for 2025",
+        title: "How to Use AI to Write Your CV: A Practical Guide for 2026",
         excerpt: "AI tools can dramatically speed up CV writing and improve quality — but only if you use them correctly. Here's a practical guide to getting the best results.",
         content: `Artificial intelligence has changed almost every aspect of knowledge work, and CV writing is no exception. Tools like CV Nest, ChatGPT, and other AI assistants can help you generate stronger bullet points, optimise for ATS, improve your professional summary, and dramatically reduce the time you spend staring at a blank document.
 
@@ -1030,5 +1030,165 @@ AI is transforming CV writing in genuine and useful ways. The people who benefit
         slug: "how-to-use-ai-to-write-your-cv",
         author: "Robert Taylor",
         authorRole: "Hiring Manager & Career Consultant"
+    },
+    {
+        id: 8,
+        title: "How to Write a CV That Actually Gets You Noticed",
+        excerpt: "Recruiters spend just six to ten seconds on an initial CV scan. Here's what genuinely moves the needle — and how to make every second count.",
+        content: `Most people spend hours tweaking font sizes and rearranging bullet points, convinced that a tidier layout is all that stands between them and an interview. The reality is quite different. Recruiters typically spend between six and ten seconds on an initial CV scan. In that window, your document either speaks clearly or it does not. This guide cuts through the generic advice you have probably already read and focuses on what genuinely moves the needle.
+
+## Start With Your Professional Summary — And Mean It
+
+The personal statement at the top of your CV is the first thing a hiring manager reads. Yet most people write something along the lines of 'a motivated professional seeking new opportunities.' That tells a recruiter nothing about who you are or what you bring.
+
+A strong personal statement does three things in three to four sentences: it names your field and level of experience, highlights one or two genuine strengths, and signals what you are looking for. Here is the difference in practice:
+
+**Weak:** "A hardworking and dedicated professional with experience in various industries looking for a challenging role."
+
+**Strong:** "Operations manager with eight years of experience in logistics and supply chain, specialising in cost reduction and team development. Led a cross-functional team of 20 through a warehouse consolidation that cut overheads by 18 per cent. Seeking a senior operations role within a growing manufacturing business."
+
+The second version is specific, credible, and relevant. It earns the next ten seconds of a recruiter's attention.
+
+## Tailor Your CV to Each Role — Every Single Time
+
+This is the piece of advice that most job seekers acknowledge but rarely follow. Sending the same CV to thirty different employers is almost always less effective than sending a carefully tailored version to five. Applicant tracking systems (ATS) — the software used by most medium and large employers to filter applications before a human ever sees them — score your CV against keywords pulled directly from the job description.
+
+Before you apply, read the job description carefully and note the specific skills, tools, and responsibilities mentioned. Then check your CV. Where those skills appear in your experience, use the same language the employer has used. You are not copying — you are communicating in terms the hiring team has already decided matter.
+
+## Quantify Your Achievements Wherever Possible
+
+Responsibilities tell a recruiter what your job involved. Achievements tell them what you actually did with it. The difference between the two is significant:
+
+- **Responsibility:** Managed the company's social media accounts.
+- **Achievement:** Grew the company's LinkedIn following from 800 to 4,200 in 12 months through a structured content strategy, resulting in a 35 per cent increase in inbound enquiries.
+
+Not every role lends itself to neat statistics, and that is fine. But where numbers exist — team sizes, budgets, timeframes, percentage improvements — use them. They make your CV concrete rather than vague.
+
+## Keep the Format Clean and Consistent
+
+You do not need a designer to create an effective CV. What you do need is consistency. Choose one font and stick to it throughout. Use bold to signal section headings and job titles, not to highlight random phrases mid-sentence. Keep margins reasonable — around 1.5 to 2 centimetres on each side. Avoid tables, text boxes, and graphics if you know the role uses ATS software, as these elements are frequently misread or skipped entirely.
+
+Two pages is the standard expectation for most roles in the UK. If you are early in your career, one page is appropriate. Beyond two pages, you risk losing the reader's attention — unless you are applying for a senior academic or executive position where a more detailed record is expected.
+
+## Proofread — Then Proofread Again
+
+A single spelling error or inconsistent date format can undermine an otherwise strong CV. After you have finished writing, step away for a few hours and return with fresh eyes. Read it aloud — your ear will often catch errors your eye skips over. If possible, ask someone else to review it too. What is obvious to you may be ambiguous or confusing to someone reading it for the first time.
+
+Writing a strong CV takes time and honest self-reflection. But the investment is worth it. A document that clearly communicates your value, speaks the language of the role you want, and presents your experience with precision will always outperform a generic template — no matter how polished the formatting.`,
+        image: "💡",
+        daysAgo: 24,
+        readTime: "8 min read",
+        category: "CV Writing",
+        slug: "how-to-write-a-cv-that-gets-you-noticed",
+        author: "Aisha Khan",
+        authorRole: "Career Coach & Resume Strategist"
+    },
+    {
+        id: 9,
+        title: "CV Mistakes That Are Costing You Interviews (And How to Fix Them)",
+        excerpt: "If you've been applying consistently but hearing nothing back, the issue is rarely your experience. Here are the most common CV mistakes — and what to do instead.",
+        content: `If you have been applying for roles consistently but hearing very little back, the issue is rarely your experience. More often, it is how that experience is being presented. Some CV mistakes are obvious once you know to look for them. Others are subtle patterns that accumulate over a document and quietly work against you. Here are the most common ones — and what to do instead.
+
+## Using a Generic Personal Statement
+
+Phrases like 'dynamic team player' and 'passionate about delivering results' have appeared on so many CVs that they have lost all meaning. Recruiters read them and register nothing. Your personal statement should be the most specific part of your CV — not the most generic.
+
+**The fix:** Write your personal statement last, after you have finished the rest of the document. By that point you will have a clearer sense of what your CV says about you overall. Use it to name your specialism, reference a specific achievement, and indicate what you are looking for next.
+
+## Listing Duties Instead of Accomplishments
+
+A job description tells a recruiter what your role involved. What they actually want to know is what you did with it. There is a meaningful difference between 'responsible for managing client accounts' and 'managed a portfolio of 40 client accounts with a combined annual value of £1.2 million, achieving a 94 per cent retention rate year on year.'
+
+**The fix:** For each role, ask yourself what you achieved, improved, or delivered beyond the basic expectations of the job. Then frame those achievements using numbers wherever you can. Even approximate figures — team sizes, project timelines, percentage changes — add credibility.
+
+## Including Irrelevant Information
+
+A CV is not an autobiography. Including your full address, a photograph, your date of birth, a list of hobbies that bear no relation to the role, or roles you held twenty years ago that are no longer relevant to your career direction — all of these take up space that could be used more effectively.
+
+**The fix:** Be deliberate about every line. Ask whether each piece of information strengthens the case for hiring you in this specific role. If it does not, remove it. Your contact details should include your name, phone number, email address, LinkedIn profile (if active), and location — town or city, not a full postal address.
+
+## Inconsistent Formatting
+
+Formatting inconsistencies — job titles in bold in one section and plain text in another, dates written as January 2021 in one place and 01/2021 in another, varying font sizes across headings — signal a lack of attention to detail. For many roles, attention to detail is precisely what an employer is trying to assess.
+
+**The fix:** Before you send your CV, go through it specifically looking for formatting. Check that dates are consistent, that bullet points are the same style throughout, that headings are at the same size and weight, and that spacing between sections is even.
+
+## Failing to Optimise for ATS
+
+Applicant tracking systems are used by most larger employers to filter CVs before a human ever reviews them. These systems scan for specific keywords and score each CV accordingly. A beautifully formatted CV with strong experience can be filtered out simply because it does not use the same terminology as the job description.
+
+**The fix:** Read the job description carefully and note the exact language used for key skills and responsibilities. Where you genuinely have those skills, reflect that language in your CV. Avoid using graphics, tables, or text boxes, as these are frequently misread by ATS software.
+
+## Sending the Same CV to Every Role
+
+Volume is not the same as strategy. Sending an identical CV to fifty employers is almost always less effective than sending a carefully tailored version to ten. The roles you apply for may share some similarities, but each employer has a specific set of needs — and they can usually tell when they are receiving a mass application.
+
+**The fix:** Keep a core CV that contains all your experience in full. Then create a tailored version for each application, adjusting the personal statement, reordering bullet points so the most relevant achievements appear first, and ensuring the language matches the job description.
+
+None of these mistakes are difficult to fix once you know they are there. The key is to review your CV not as a record of where you have been, but as a persuasive document designed to secure a specific outcome — an interview.`,
+        image: "🔧",
+        daysAgo: 27,
+        readTime: "9 min read",
+        category: "CV Mistakes",
+        slug: "cv-mistakes-costing-you-interviews-fix",
+        author: "Marcus Lee",
+        authorRole: "Recruitment Consultant & Career Coach"
+    },
+    {
+        id: 10,
+        title: "Writing a CV With No Experience: A Practical Guide for Graduates and Career Starters",
+        excerpt: "Everyone starts somewhere. Here's how to write a compelling CV when your direct experience is limited — and why you have more to offer than you think.",
+        content: `One of the most common frustrations among graduates and first-time job seekers is the sense of a catch-22: employers want experience, but you cannot get experience without being given a chance in the first place. The good news is that most hiring managers recruiting for entry-level roles are fully aware of this. What they are actually looking for is evidence of capability, character, and potential — and you almost certainly have more to offer than you realise.
+
+## Reframe What Counts as Experience
+
+Before you conclude that you have nothing to include on your CV, consider everything you have actually done. Experience does not have to mean a paid job in a relevant industry. The following all count:
+
+- Part-time or weekend jobs — even if in retail, hospitality, or care work
+- Volunteering, community work, or charity involvement
+- University or college projects, dissertations, or group work
+- Sports teams, student societies, or clubs where you held any kind of responsibility
+- Freelance or self-directed work — websites built, content created, events organised
+- Internships or work placements, regardless of how short
+
+The key is to present these experiences in a way that draws out transferable skills — communication, organisation, problem-solving, teamwork — and connects them to what the role you are applying for actually requires.
+
+## Lead With a Strong Personal Statement
+
+When you have limited work history, your personal statement carries more weight than usual. This is your opportunity to make a direct case for why you are worth interviewing. It should be three to four sentences and cover: who you are professionally (your field of study or interest), what you offer (your key strengths or skills), and what you are seeking.
+
+For example: "Recent business management graduate from the University of Leeds with a strong foundation in marketing, data analysis, and project coordination. During my degree, I led a team of six in a live consultancy project for a regional charity, where we developed and presented a digital strategy that the organisation subsequently adopted. I am now looking to bring those skills into a junior marketing or communications role within a purpose-driven organisation."
+
+This kind of statement is specific, honest about your level of experience, and still gives the recruiter something concrete to work with.
+
+## Make the Most of Your Education Section
+
+At this stage of your career, your education section is more prominent than it will be later. Do not just list the name of your degree and the year you graduated. Expand it to include:
+
+- Relevant modules or subjects studied
+- Your dissertation topic and what it demonstrated about your research or analytical skills
+- Any group projects, particularly if you played a leadership or coordination role
+- Academic awards, scholarships, or commendations
+
+If your grades are strong, include them. If they are not, you can simply omit them — especially if you have other strengths to highlight.
+
+## Skills Section: Be Specific, Not Vague
+
+A skills section that lists 'communication, teamwork, and problem-solving' tells a recruiter very little. These are assumed qualities, not differentiators. Instead, focus on skills that are either specific to the industry you are entering or demonstrate a level of competence beyond the obvious.
+
+For example, rather than listing 'IT skills', specify the software you actually know: Google Analytics, Adobe Premiere, Python, Salesforce, or whatever is genuinely relevant. Rather than 'communication skills', point to concrete evidence: presented findings to a panel of 15 academics, or wrote monthly newsletter reaching 500 subscribers.
+
+## A Note on Honesty
+
+It can be tempting, when your CV feels thin, to embellish or exaggerate. Resist the urge. Hiring managers interview hundreds of candidates and are generally skilled at identifying inflated claims. More importantly, even if an exaggeration gets you through the door, it can create significant problems once you are in the role. Present what you actually have — then work to build genuine experience as quickly as possible through internships, freelance projects, or voluntary work.
+
+Starting out without a long work history is not a disadvantage you need to hide. It is a starting point that every working professional has been through. A CV that presents your genuine strengths clearly, honestly, and with evidence will always be more compelling than one padded with empty claims.`,
+        image: "🚀",
+        daysAgo: 30,
+        readTime: "9 min read",
+        category: "Graduate Advice",
+        slug: "writing-cv-with-no-experience-graduates",
+        author: "Emily Carter",
+        authorRole: "Graduate Careers Advisor"
     }
 ];
