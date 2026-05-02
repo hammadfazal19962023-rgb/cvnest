@@ -12,7 +12,7 @@ export const getRelativeDate = (daysAgo: number) => {
 export const blogPosts = [
     {
         id: 1,
-        title: "How to Write a CV That Actually Gets You Interviews in 2025",
+        title: "How to Write a CV That Actually Gets You Interviews in 2026",
         excerpt: "Most CVs get rejected in under 10 seconds. Here's exactly what hiring managers look for — and how to make yours impossible to ignore.",
         content: `You spend hours crafting your CV. You list every job, every skill, every qualification. You hit send — and hear nothing back.
 
@@ -74,7 +74,7 @@ For recent graduates with limited work experience, the education section can com
 
 ### 5. Skills
 
-A skills section works best as a short, scannable list rather than a paragraph. Separate technical skills (software, programming languages, tools) from soft skills (leadership, communication, project management). However, be selective — listing "Microsoft Word" as a skill in 2025 wastes space and signals a lack of awareness.
+A skills section works best as a short, scannable list rather than a paragraph. Separate technical skills (software, programming languages, tools) from soft skills (leadership, communication, project management). However, be selective — listing "Microsoft Word" as a skill in 2026 wastes space and signals a lack of awareness.
 
 ## ATS Optimisation: How to Get Past the Robots
 
@@ -128,7 +128,7 @@ This approach means you're never starting from scratch, but each application sti
 
 ## How AI Tools Are Changing CV Writing
 
-In 2025, AI-powered CV tools like CV Nest have made it significantly easier to create strong, ATS-optimised CVs in a fraction of the time it previously took. These tools can analyse your experience, suggest stronger action verbs, help quantify achievements, and ensure your formatting is clean and professional.
+In 2026, AI-powered CV tools like CV Nest have made it significantly easier to create strong, ATS-optimised CVs in a fraction of the time it previously took. These tools can analyse your experience, suggest stronger action verbs, help quantify achievements, and ensure your formatting is clean and professional.
 
 The most effective approach is to use AI as a starting point and a sense-checker, then apply your own judgement and personalisation. The tool handles structure and language; you provide the authentic detail and insight that makes the CV genuinely yours.
 
@@ -878,7 +878,7 @@ Check your CV against this list. Fix the issues you find. Then focus the majorit
     },
     {
         id: 7,
-        title: "How to Use AI to Write Your CV: A Practical Guide for 2025",
+        title: "How to Use AI to Write Your CV: A Practical Guide for 2026",
         excerpt: "AI tools can dramatically speed up CV writing and improve quality — but only if you use them correctly. Here's a practical guide to getting the best results.",
         content: `Artificial intelligence has changed almost every aspect of knowledge work, and CV writing is no exception. Tools like CV Nest, ChatGPT, and other AI assistants can help you generate stronger bullet points, optimise for ATS, improve your professional summary, and dramatically reduce the time you spend staring at a blank document.
 
