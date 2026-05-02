@@ -1080,8 +1080,8 @@ Writing a strong CV takes time and honest self-reflection. But the investment is
         readTime: "8 min read",
         category: "CV Writing",
         slug: "how-to-write-a-cv-that-gets-you-noticed",
-        author: "Hammad Fazal",
-        authorRole: "UI/UX Developer"
+        author: "Aisha Khan",
+        authorRole: "Career Coach & Resume Strategist"
     },
     {
         id: 9,
@@ -1131,8 +1131,8 @@ None of these mistakes are difficult to fix once you know they are there. The ke
         readTime: "9 min read",
         category: "CV Mistakes",
         slug: "cv-mistakes-costing-you-interviews-fix",
-        author: "Hammad Fazal",
-        authorRole: "UI/UX Developer"
+        author: "Marcus Lee",
+        authorRole: "Recruitment Consultant & Career Coach"
     },
     {
         id: 10,
@@ -1188,7 +1188,7 @@ Starting out without a long work history is not a disadvantage you need to hide.
         readTime: "9 min read",
         category: "Graduate Advice",
         slug: "writing-cv-with-no-experience-graduates",
-        author: "Hammad Fazal",
-        authorRole: "UI/UX Developer"
+        author: "Emily Carter",
+        authorRole: "Graduate Careers Advisor"
     }
 ];
