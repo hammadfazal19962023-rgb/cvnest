@@ -235,7 +235,7 @@ const BlogPost = () => {
                 </div>
 
                 {/* Share Section */}
-                <div className="mt-10 pt-6 border-t border-orange-100">
+                {/* <div className="mt-10 pt-6 border-t border-orange-100">
                   <p className="text-sm font-medium text-gray-600 mb-4 flex items-center gap-2">
                     <Share2 className="w-4 h-4" />
                     Share this article:
@@ -260,7 +260,7 @@ const BlogPost = () => {
                       Facebook
                     </button>
                   </div>
-                </div>
+                </div> */}
 
                 {/* Article Schema Markup */}
                 <script type="application/ld+json">
