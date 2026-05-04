@@ -1035,49 +1035,142 @@ AI is transforming CV writing in genuine and useful ways. The people who benefit
         id: 8,
         title: "How to Write a CV That Actually Gets You Noticed",
         excerpt: "Recruiters spend just six to ten seconds on an initial CV scan. Here's what genuinely moves the needle — and how to make every second count.",
-        content: `Most people spend hours tweaking font sizes and rearranging bullet points, convinced that a tidier layout is all that stands between them and an interview. The reality is quite different. Recruiters typically spend between six and ten seconds on an initial CV scan. In that window, your document either speaks clearly or it does not. This guide cuts through the generic advice you have probably already read and focuses on what genuinely moves the needle.
+        content: `Most people spend hours tweaking font sizes and rearranging bullet points, convinced that a tidier layout is all that stands between them and an interview. The reality is quite different. Recruiters typically spend between six and ten seconds on an initial CV scan. In that window, your document either speaks clearly or it does not.
+
+This guide cuts through the generic advice you have probably already read and focuses on what genuinely moves the needle — the specific decisions that separate CVs that get callbacks from those that get archived.
+
+## Why Most CVs Fail Before Anyone Reads Them
+
+Before we talk about what to write, it is worth understanding why so many CVs fail silently. The two most common reasons have nothing to do with a lack of experience or qualifications.
+
+The first is ATS filtering. Most medium and large employers now route every application through Applicant Tracking System software before a human sees it. These systems parse your CV and score it against the job description. A CV that uses the wrong terminology, sits inside a multi-column template, or buries key information in a text box can score near zero — and get filtered out entirely — even if the candidate is perfectly qualified.
+
+The second is poor first-impression design. When your CV does reach a recruiter, they are not reading it. They are scanning it. Their eye moves to the top, looks for signals — job title, company names, keywords — and decides within seconds whether to slow down and read properly. A wall of text, inconsistent formatting, or a vague opening statement sends the wrong signal immediately.
+
+Understanding these two failure points shapes everything that follows.
 
 ## Start With Your Professional Summary — And Mean It
 
 The personal statement at the top of your CV is the first thing a hiring manager reads. Yet most people write something along the lines of 'a motivated professional seeking new opportunities.' That tells a recruiter nothing about who you are or what you bring.
 
-A strong personal statement does three things in three to four sentences: it names your field and level of experience, highlights one or two genuine strengths, and signals what you are looking for. Here is the difference in practice:
+A strong professional summary does three things in three to four sentences: it names your field and level of experience, highlights one or two genuine strengths or achievements, and signals the type of role you are targeting.
+
+Here is the difference in practice:
 
 **Weak:** "A hardworking and dedicated professional with experience in various industries looking for a challenging role."
 
 **Strong:** "Operations manager with eight years of experience in logistics and supply chain, specialising in cost reduction and team development. Led a cross-functional team of 20 through a warehouse consolidation that cut overheads by 18 per cent. Seeking a senior operations role within a growing manufacturing business."
 
-The second version is specific, credible, and relevant. It earns the next ten seconds of a recruiter's attention.
+The second version is specific, credible, and immediately communicates value. It gives the recruiter something concrete to anchor to. It also passes a basic ATS keyword test — it contains role-relevant terminology like "operations manager," "logistics," "supply chain," and "cost reduction."
+
+Notice also what the strong version does not do: it does not use filler phrases like "results-driven," "passionate," or "dynamic." These words appear on so many CVs that they register as noise. Recruiters skim past them. Specificity is what earns attention.
+
+### How to Write Your Summary in Practice
+
+The easiest way to write a strong summary is to answer four questions, then combine the answers into three to four sentences:
+
+1. What is your professional title and how many years of experience do you have?
+2. What do you specialise in or what are you most known for professionally?
+3. What is your most significant measurable achievement?
+4. What kind of role or company are you targeting next?
+
+Write each answer as a phrase, then assemble them into a short paragraph. Edit for flow. Read it aloud to check that it sounds like something a confident professional would actually say about themselves.
 
 ## Tailor Your CV to Each Role — Every Single Time
 
-This is the piece of advice that most job seekers acknowledge but rarely follow. Sending the same CV to thirty different employers is almost always less effective than sending a carefully tailored version to five. Applicant tracking systems (ATS) — the software used by most medium and large employers to filter applications before a human ever sees them — score your CV against keywords pulled directly from the job description.
+This is the piece of advice that most job seekers acknowledge but rarely follow. Sending the same CV to thirty different employers is almost always less effective than sending a carefully tailored version to five.
 
-Before you apply, read the job description carefully and note the specific skills, tools, and responsibilities mentioned. Then check your CV. Where those skills appear in your experience, use the same language the employer has used. You are not copying — you are communicating in terms the hiring team has already decided matter.
+Applicant tracking systems score your CV against the specific language of each job description. If the job posting uses the phrase "stakeholder management" and your CV says "working with clients," some ATS systems will not count it as a match — even though they mean essentially the same thing. The closer your language mirrors the job description, the higher your score.
+
+But tailoring matters beyond ATS too. When your CV reaches a human reader, a generic document communicates that you are not especially interested in this specific role. A tailored one communicates that you have done your research and that your experience is genuinely relevant. That difference in perception matters.
+
+### A Practical System for Tailoring
+
+The most efficient approach is to maintain a master CV — a comprehensive document containing every role, achievement, skill, and certification you have. This document is never sent to anyone. It is your source material.
+
+For each application, copy the master CV and spend fifteen to twenty minutes making targeted edits:
+
+- Rewrite the professional summary to reflect the specific role and company
+- Reorder bullet points within each role so the most relevant achievements appear first
+- Check that the keywords from the job description appear naturally in your content
+- Adjust the skills section to prioritise what the job requires
+
+This approach means you are never starting from scratch, but every application receives a genuinely relevant version of your CV.
 
 ## Quantify Your Achievements Wherever Possible
 
-Responsibilities tell a recruiter what your job involved. Achievements tell them what you actually did with it. The difference between the two is significant:
+Responsibilities tell a recruiter what your job involved. Achievements tell them what you actually did with it. The difference between the two is enormous in practice.
 
-- **Responsibility:** Managed the company's social media accounts.
-- **Achievement:** Grew the company's LinkedIn following from 800 to 4,200 in 12 months through a structured content strategy, resulting in a 35 per cent increase in inbound enquiries.
+Compare these two bullet points from the same candidate with the same experience:
 
-Not every role lends itself to neat statistics, and that is fine. But where numbers exist — team sizes, budgets, timeframes, percentage improvements — use them. They make your CV concrete rather than vague.
+- **Responsibility-based:** "Managed the company's social media accounts and created content."
+- **Achievement-based:** "Grew the company's LinkedIn following from 800 to 4,200 in 12 months through a structured content strategy, resulting in a 35 per cent increase in inbound enquiries."
+
+Which candidate would you want to speak to?
+
+The achievement-based version works because it is specific, it includes numbers, and it connects the activity to a business outcome. Recruiters are not just looking for people who did things — they are looking for people who made a difference.
+
+### How to Find Your Numbers
+
+Many people resist quantifying achievements because they are not sure of the exact figures. Here is the key insight: approximate numbers are far better than no numbers. Consider the difference between these two phrases:
+
+- "Managed a large team across multiple departments"
+- "Managed a team of approximately 25 people across finance, operations, and logistics"
+
+The second is dramatically more credible and useful, even with the word "approximately." If you genuinely cannot recall exact figures, go back and estimate based on what you do remember. How large was the budget, roughly? What was the percentage improvement, approximately? Honest approximations are legitimate and effective.
+
+For roles where numerical achievements are genuinely difficult — teaching, social care, internal communications, for example — focus on scale and impact instead. How many students? How many clients? What feedback did you receive? What changed as a result of your work?
 
 ## Keep the Format Clean and Consistent
 
-You do not need a designer to create an effective CV. What you do need is consistency. Choose one font and stick to it throughout. Use bold to signal section headings and job titles, not to highlight random phrases mid-sentence. Keep margins reasonable — around 1.5 to 2 centimetres on each side. Avoid tables, text boxes, and graphics if you know the role uses ATS software, as these elements are frequently misread or skipped entirely.
+You do not need a designer to create an effective CV. What you do need is consistency and restraint.
 
-Two pages is the standard expectation for most roles in the UK. If you are early in your career, one page is appropriate. Beyond two pages, you risk losing the reader's attention — unless you are applying for a senior academic or executive position where a more detailed record is expected.
+**Font:** Choose one font and use it throughout. Calibri, Georgia, Garamond, and Gill Sans are all strong choices for professional CVs. Times New Roman reads as dated; Comic Sans is obviously disqualifying. Body text should be 10 to 12 point. Your name can be larger, but section headings should generally be 12 to 14 point at most.
+
+**Bold and emphasis:** Use bold for section headings and job titles only. Do not bold random phrases mid-sentence — it creates visual noise and makes the document harder to scan.
+
+**Margins:** Keep them at 1.5 to 2 centimetres on each side. Narrowing your margins to squeeze in more content is a sign that your content needs editing, not your margins.
+
+**Length:** One page for graduates and those with fewer than five years of experience. Two pages for most professionals. The advice to always keep CVs to one page regardless of experience level is outdated — but padding a CV to fill two pages with thin content is equally wrong. Length should be determined by how much genuinely relevant content you have.
+
+**ATS formatting rules:** Avoid tables, columns, text boxes, sidebars, and graphics of any kind. Many ATS systems cannot parse content inside these elements, meaning key information simply disappears from the system's perspective. Use a clean single-column layout for any application going through an online portal.
+
+**File format:** Submit as a PDF for direct email applications, as it preserves your formatting across devices. For online portal applications, check the instructions — some older ATS systems handle Word documents better than PDFs.
+
+## Make Your Work History the Centrepiece
+
+Your work experience section is the most important part of your CV for most roles. Recruiters spend the majority of their scanning time here, and it is where your case for interview is ultimately made or lost.
+
+Each role should include the job title, company name, employment dates, and three to six bullet points. The bullet points are where most CVs fall down.
+
+Use this structure for each bullet point: **action verb + specific activity + measurable outcome**. For example:
+
+- "Implemented a new supplier onboarding process that reduced procurement lead times by 22 per cent"
+- "Trained and mentored a team of eight junior analysts, with three subsequently promoted within 18 months"
+- "Negotiated a new software licensing agreement saving the business £40,000 annually"
+
+Start each bullet with a strong, specific action verb. Vary them across bullet points — eight bullets in a row beginning with "Managed" reads as repetitive and uncreative. Strong options include: Led, Built, Designed, Delivered, Reduced, Generated, Launched, Negotiated, Streamlined, Mentored, Implemented, Developed, Overhauled, Secured.
 
 ## Proofread — Then Proofread Again
 
-A single spelling error or inconsistent date format can undermine an otherwise strong CV. After you have finished writing, step away for a few hours and return with fresh eyes. Read it aloud — your ear will often catch errors your eye skips over. If possible, ask someone else to review it too. What is obvious to you may be ambiguous or confusing to someone reading it for the first time.
+A single spelling error or inconsistent date format can undermine an otherwise strong CV. It signals carelessness — which is a particularly poor quality to advertise in the document you are using to demonstrate your professional capabilities.
 
-Writing a strong CV takes time and honest self-reflection. But the investment is worth it. A document that clearly communicates your value, speaks the language of the role you want, and presents your experience with precision will always outperform a generic template — no matter how polished the formatting.`,
+Proofread your CV at least three times: once on screen, once after printing it out (you catch different errors on paper), and once by reading it backwards sentence by sentence, which forces you to focus on individual words rather than skimming meaning.
+
+Then ask someone else to read it. Fresh eyes catch what yours have learned to skip over.
+
+Also check: are your employment dates consistent in format throughout? Is the spacing even between sections? Are all bullet points the same style? Does the document look the same on a different computer or in a different browser? These details matter more than most people realise.
+
+## The Final Test: Read It As a Recruiter Would
+
+Before sending any CV, try this exercise. Set a timer for ten seconds. Open your CV and ask: what do I know about this person after ten seconds? 
+
+If the answer is specific — their field, their level, one or two impressive things about their background — your CV is working. If the answer is vague — "they seem experienced in... something" — go back and sharpen the opening sections.
+
+A CV that communicates your value clearly and quickly, uses the language of the role you want, and presents your experience with precision will always outperform a generic template — no matter how polished the formatting.`,
         image: "💡",
         daysAgo: 24,
-        readTime: "8 min read",
+        readTime: "13 min read",
         category: "CV Writing",
         slug: "how-to-write-a-cv-that-gets-you-noticed",
         author: "Aisha Khan",
@@ -1086,49 +1179,127 @@ Writing a strong CV takes time and honest self-reflection. But the investment is
     {
         id: 9,
         title: "CV Mistakes That Are Costing You Interviews (And How to Fix Them)",
-        excerpt: "If you've been applying consistently but hearing nothing back, the issue is rarely your experience. Here are the most common CV mistakes — and what to do instead.",
-        content: `If you have been applying for roles consistently but hearing very little back, the issue is rarely your experience. More often, it is how that experience is being presented. Some CV mistakes are obvious once you know to look for them. Others are subtle patterns that accumulate over a document and quietly work against you. Here are the most common ones — and what to do instead.
+        excerpt: "If you've been applying consistently but hearing nothing back, the issue is rarely your experience. Here are the most common CV mistakes — and exactly what to do instead.",
+        content: `If you have been applying for roles consistently but hearing very little back, the issue is rarely your experience. More often, it is how that experience is being presented. Some CV mistakes are obvious once you know to look for them. Others are subtle patterns that accumulate over a document and quietly work against you.
 
-## Using a Generic Personal Statement
+What makes these mistakes particularly costly is that most job seekers do not know they are making them. Your CV looks fine to you — because you know what it means. To a recruiter scanning it cold, in competition with dozens of others, it may read very differently.
 
-Phrases like 'dynamic team player' and 'passionate about delivering results' have appeared on so many CVs that they have lost all meaning. Recruiters read them and register nothing. Your personal statement should be the most specific part of your CV — not the most generic.
+Here are the most common mistakes, why each one damages your application, and exactly what to do instead.
 
-**The fix:** Write your personal statement last, after you have finished the rest of the document. By that point you will have a clearer sense of what your CV says about you overall. Use it to name your specialism, reference a specific achievement, and indicate what you are looking for next.
+## Mistake 1: Using a Generic Personal Statement
 
-## Listing Duties Instead of Accomplishments
+Phrases like "dynamic team player," "passionate about delivering results," and "motivated self-starter seeking a challenging opportunity" have appeared on so many CVs that they have become invisible. Recruiters read them and register nothing — because they apply to everyone and tell you nothing.
 
-A job description tells a recruiter what your role involved. What they actually want to know is what you did with it. There is a meaningful difference between 'responsible for managing client accounts' and 'managed a portfolio of 40 client accounts with a combined annual value of £1.2 million, achieving a 94 per cent retention rate year on year.'
+Your personal statement is prime real estate. It is the first thing a recruiter reads, and it sets the tone for everything that follows. A generic opening immediately signals that you have not thought carefully about this application.
 
-**The fix:** For each role, ask yourself what you achieved, improved, or delivered beyond the basic expectations of the job. Then frame those achievements using numbers wherever you can. Even approximate figures — team sizes, project timelines, percentage changes — add credibility.
+**The fix:** Write your personal statement last, after you have finished everything else. By that point, you will have a clearer sense of what your CV says about you overall. Then write a summary that names your specific field, references a genuine achievement, and clearly indicates what you are looking for next.
 
-## Including Irrelevant Information
+Test it with this question: could this statement appear word-for-word on another person's CV? If yes, rewrite it until it could not.
 
-A CV is not an autobiography. Including your full address, a photograph, your date of birth, a list of hobbies that bear no relation to the role, or roles you held twenty years ago that are no longer relevant to your career direction — all of these take up space that could be used more effectively.
+## Mistake 2: Listing Duties Instead of Accomplishments
 
-**The fix:** Be deliberate about every line. Ask whether each piece of information strengthens the case for hiring you in this specific role. If it does not, remove it. Your contact details should include your name, phone number, email address, LinkedIn profile (if active), and location — town or city, not a full postal address.
+The single most common CV mistake — and the one with the greatest impact on your interview rate — is describing what your job involved rather than what you achieved in it.
 
-## Inconsistent Formatting
+Every candidate who held the same role as you had similar responsibilities. What recruiters are actually trying to assess is what you did with those responsibilities. Two people with identical job titles can have wildly different levels of impact, and the CV is your opportunity to demonstrate which category you fall into.
 
-Formatting inconsistencies — job titles in bold in one section and plain text in another, dates written as January 2021 in one place and 01/2021 in another, varying font sizes across headings — signal a lack of attention to detail. For many roles, attention to detail is precisely what an employer is trying to assess.
+There is a meaningful difference between:
+- "Responsible for managing client accounts"
+- "Managed a portfolio of 40 client accounts with a combined annual value of £1.2 million, achieving a 94 per cent retention rate year on year"
 
-**The fix:** Before you send your CV, go through it specifically looking for formatting. Check that dates are consistent, that bullet points are the same style throughout, that headings are at the same size and weight, and that spacing between sections is even.
+The first tells the recruiter your job description. The second tells them what you actually delivered.
 
-## Failing to Optimise for ATS
+**The fix:** For every bullet point on your CV, ask three questions: What specifically did I do? What was the scale or context? What was the outcome or result? Then write the bullet point to answer all three, in that order, starting with a strong action verb.
 
-Applicant tracking systems are used by most larger employers to filter CVs before a human ever reviews them. These systems scan for specific keywords and score each CV accordingly. A beautifully formatted CV with strong experience can be filtered out simply because it does not use the same terminology as the job description.
+If you genuinely cannot answer the "outcome" question for a bullet point, it is a signal either that the achievement needs more thought, or that the bullet point should be removed in favour of one where you can demonstrate clear impact.
 
-**The fix:** Read the job description carefully and note the exact language used for key skills and responsibilities. Where you genuinely have those skills, reflect that language in your CV. Avoid using graphics, tables, or text boxes, as these are frequently misread by ATS software.
+## Mistake 3: Including Irrelevant Information
 
-## Sending the Same CV to Every Role
+A CV is not a comprehensive record of your life. It is a curated, targeted document designed to make a specific case: that you are the right person for this particular role. Anything that does not serve that case dilutes it.
+
+Common examples of irrelevant information:
+
+**Your full postal address.** Your town or city is enough. Including your street address is unnecessary, adds no value, and in some contexts can create privacy concerns.
+
+**A photograph.** In the UK, US, Canada, and Australia, photos are not expected and their inclusion can introduce unconscious bias. Unless you are in an industry where appearance is directly relevant — acting, modelling — leave it out.
+
+**Your date of birth.** This is not relevant to your ability to do the job and can inadvertently introduce age bias into the hiring decision.
+
+**Hobbies that have no connection to the role.** "Reading, socialising, and going to the gym" tells a recruiter nothing relevant. Include interests only if they are genuinely relevant to the role or demonstrate a transferable skill — for example, a leadership role in a sports team, a language skill developed through travel, or creative work relevant to a creative role.
+
+**Roles from more than 15 years ago** — unless they are particularly relevant or represent a significant career stage you want to highlight.
+
+**The phrase "References available on request."** It is universally assumed. It adds nothing. Use that space for something useful.
+
+**The fix:** Before including any piece of information, ask: does this make the case for hiring me in this specific role? If not, cut it.
+
+## Mistake 4: Inconsistent Formatting
+
+Formatting inconsistencies are one of the most common reasons a recruiter's impression of a CV quietly drops — even if they cannot articulate exactly why. Job titles in bold in one role but plain text in another. Dates written as "January 2021" in one section and "01/2021" in another. Varying font sizes across headings. Different spacing between sections.
+
+Individually, each of these is a minor issue. Cumulatively, they create a document that feels unfinished and signals a lack of attention to detail. For many roles, attention to detail is exactly what an employer is trying to assess.
+
+**The fix:** After finishing your CV content, do a dedicated formatting pass — separate from your content review. Check that:
+
+- Dates are in a consistent format throughout
+- Bullet points use the same style in every section
+- Job titles are formatted the same way in every role
+- Company names are formatted consistently
+- Spacing between sections is even
+- All text is the same font throughout
+
+If you are working from a template, check that the template has not introduced hidden inconsistencies. Copying and pasting from other documents can bring in different fonts or spacing that is invisible in normal view.
+
+## Mistake 5: Failing to Optimise for ATS
+
+Applicant tracking systems are used by most larger employers — and a growing number of smaller ones — to filter CVs before a human ever reviews them. These systems parse your CV, extract information, and score it against the job description based on keyword matching and other criteria.
+
+A beautifully formatted CV with genuinely strong experience can be filtered out automatically simply because it does not use the same terminology as the job description. The ATS does not know that "client relationship management" and "account management" mean essentially the same thing. If the job description says "account management" and your CV says "client relationship management," you may not match.
+
+**The fix:** Read the job description carefully and note the specific language used for key skills, tools, and responsibilities. Where you genuinely have those skills, use the same words in your CV. This is not copying — it is communicating in the terms the employer has already indicated are relevant.
+
+Beyond keywords, ensure your CV is ATS-friendly in its formatting:
+
+- Use a single-column layout — multi-column formats are frequently misread
+- Avoid tables, text boxes, graphics, headers, and footers — content inside these elements is often invisible to ATS parsers
+- Use standard section headings: "Work Experience," "Education," "Skills," "Certifications"
+- Avoid unusual fonts or special character bullet points
+
+You can test how well your CV matches a specific job description using tools like Jobscan, Resumeworded, or CV Nest's built-in ATS scoring feature.
+
+## Mistake 6: Sending the Same CV to Every Role
 
 Volume is not the same as strategy. Sending an identical CV to fifty employers is almost always less effective than sending a carefully tailored version to ten. The roles you apply for may share some similarities, but each employer has a specific set of needs — and they can usually tell when they are receiving a mass application.
 
-**The fix:** Keep a core CV that contains all your experience in full. Then create a tailored version for each application, adjusting the personal statement, reordering bullet points so the most relevant achievements appear first, and ensuring the language matches the job description.
+More practically: a generic CV will underperform on ATS scoring for every role except the one it happens to be optimised for. Since most applications now pass through ATS before reaching a human, an untailored CV is likely to score poorly on most of the roles you apply for.
 
-None of these mistakes are difficult to fix once you know they are there. The key is to review your CV not as a record of where you have been, but as a persuasive document designed to secure a specific outcome — an interview.`,
+**The fix:** Keep a comprehensive master CV containing all your experience. For each application, spend fifteen to twenty minutes creating a tailored version. Focus your editing on: the professional summary, the order of your bullet points, and the presence of role-specific keywords. You are not rewriting from scratch — you are making targeted adjustments that significantly improve your match rate.
+
+## Mistake 7: Weak or Repetitive Action Verbs
+
+How you begin each bullet point matters more than most people realise. Starting bullets with passive or vague phrases like "Was responsible for," "Helped with," "Worked on," or "Assisted in" immediately signals a junior or passive level of involvement — even if your actual contribution was significant.
+
+Similarly, starting eight bullet points in a row with the same verb — eight bullets all beginning with "Managed," for example — reads as repetitive and uncreative, and makes the document harder to scan.
+
+**The fix:** Start every bullet point with a strong, specific action verb. Vary them. A useful set to draw from: Led, Built, Designed, Delivered, Reduced, Generated, Launched, Negotiated, Streamlined, Mentored, Implemented, Developed, Overhauled, Secured, Coordinated, Analysed, Established, Transformed, Introduced, Expanded.
+
+## Mistake 8: Not Proofreading Thoroughly
+
+A spelling error in your professional summary, a grammatical mistake in a key bullet point, or a typo in your contact details — these are the fastest ways to create a negative impression before anyone has considered your experience.
+
+A CV with an error in the first section signals carelessness. That is a particularly poor quality to advertise in a document whose entire purpose is to showcase your professional capabilities.
+
+**The fix:** Proofread your CV at minimum three times: once on screen, once after printing it out (you catch different errors), and once by reading it backwards sentence by sentence, which forces you to evaluate each word rather than skim meaning. Then ask someone else to read it. A second pair of eyes will catch things yours have learned to miss.
+
+## The Pattern Beneath All These Mistakes
+
+Look at the mistakes above as a group and a pattern emerges. Every one of them comes down to the same underlying error: treating the CV as a record of your past rather than a targeted pitch for your future.
+
+Your CV is not a comprehensive account of everything you have done. It is a carefully curated, specifically tailored argument that you are the right person for a particular role. Every decision — what to include, how to describe it, how to format it, what language to use — should be made in service of that argument.
+
+When you approach your CV as a strategic document rather than a biographical one, most of these mistakes resolve themselves naturally.`,
         image: "🔧",
         daysAgo: 27,
-        readTime: "9 min read",
+        readTime: "14 min read",
         category: "CV Mistakes",
         slug: "cv-mistakes-costing-you-interviews-fix",
         author: "Marcus Lee",
@@ -1138,57 +1309,441 @@ None of these mistakes are difficult to fix once you know they are there. The ke
         id: 10,
         title: "Writing a CV With No Experience: A Practical Guide for Graduates and Career Starters",
         excerpt: "Everyone starts somewhere. Here's how to write a compelling CV when your direct experience is limited — and why you have more to offer than you think.",
-        content: `One of the most common frustrations among graduates and first-time job seekers is the sense of a catch-22: employers want experience, but you cannot get experience without being given a chance in the first place. The good news is that most hiring managers recruiting for entry-level roles are fully aware of this. What they are actually looking for is evidence of capability, character, and potential — and you almost certainly have more to offer than you realise.
+        content: `One of the most common frustrations among graduates and first-time job seekers is the sense of a catch-22: employers want experience, but you cannot get experience without being given a chance in the first place. The good news is that most hiring managers recruiting for entry-level roles are fully aware of this dynamic. What they are actually looking for is evidence of capability, character, and potential — not a fully formed professional track record.
 
-## Reframe What Counts as Experience
+And you almost certainly have more to offer than you realise.
 
-Before you conclude that you have nothing to include on your CV, consider everything you have actually done. Experience does not have to mean a paid job in a relevant industry. The following all count:
+This guide walks through exactly how to build a strong CV when your direct professional experience is limited — and how to present what you do have in a way that genuinely competes for interviews.
 
-- Part-time or weekend jobs — even if in retail, hospitality, or care work
-- Volunteering, community work, or charity involvement
-- University or college projects, dissertations, or group work
-- Sports teams, student societies, or clubs where you held any kind of responsibility
-- Freelance or self-directed work — websites built, content created, events organised
-- Internships or work placements, regardless of how short
+## First: Reframe What "Experience" Actually Means
 
-The key is to present these experiences in a way that draws out transferable skills — communication, organisation, problem-solving, teamwork — and connects them to what the role you are applying for actually requires.
+The most important mindset shift to make before writing a single line is this: experience does not only mean paid employment in a relevant industry.
 
-## Lead With a Strong Personal Statement
+Most people think of experience narrowly — as formal jobs held for significant periods of time. Hiring managers who recruit for entry-level roles think about it far more broadly. They are looking for any evidence that you have the capability, attitude, and transferable skills to do the job well. Under that definition, experience includes:
 
-When you have limited work history, your personal statement carries more weight than usual. This is your opportunity to make a direct case for why you are worth interviewing. It should be three to four sentences and cover: who you are professionally (your field of study or interest), what you offer (your key strengths or skills), and what you are seeking.
+- Part-time or weekend jobs — even in retail, hospitality, or care work
+- Volunteering and community involvement
+- University or college projects, group work, and dissertations
+- Internships and work placements, regardless of how short or informal
+- Sports teams, student societies, and clubs — especially where you held any responsibility
+- Freelance or self-directed work — a website built, content created, events organised, people helped
+- Personal projects that demonstrate relevant skills
 
-For example: "Recent business management graduate from the University of Leeds with a strong foundation in marketing, data analysis, and project coordination. During my degree, I led a team of six in a live consultancy project for a regional charity, where we developed and presented a digital strategy that the organisation subsequently adopted. I am now looking to bring those skills into a junior marketing or communications role within a purpose-driven organisation."
+The task is not to pretend you have experience you do not have. It is to surface and frame the genuine experience you do have — experience that may currently be sitting on your CV described far too weakly, or not included at all.
 
-This kind of statement is specific, honest about your level of experience, and still gives the recruiter something concrete to work with.
+## Building Your Professional Summary Without Extensive Experience
 
-## Make the Most of Your Education Section
+When you have limited work history, your professional summary carries more weight than usual. It is your first and best opportunity to make a direct case for why you are worth interviewing — and it needs to be specific, not generic.
 
-At this stage of your career, your education section is more prominent than it will be later. Do not just list the name of your degree and the year you graduated. Expand it to include:
+A strong graduate summary answers three questions in three to four sentences:
+1. Who are you professionally? (Your field, area of study, or professional focus)
+2. What do you offer? (Your strongest skills or relevant experience, even if from study or extracurricular activity)
+3. What are you looking for? (The type of role you are targeting, with some specificity)
 
-- Relevant modules or subjects studied
-- Your dissertation topic and what it demonstrated about your research or analytical skills
-- Any group projects, particularly if you played a leadership or coordination role
-- Academic awards, scholarships, or commendations
+Here is an example of a summary that works:
 
-If your grades are strong, include them. If they are not, you can simply omit them — especially if you have other strengths to highlight.
+"Recent business management graduate from the University of Leeds with a strong foundation in marketing, data analysis, and project coordination. During my degree, I led a team of six in a live consultancy project for a regional charity, where we developed and presented a digital strategy that the organisation subsequently adopted. I am now looking to bring those skills into a junior marketing or communications role within a purpose-driven organisation."
 
-## Skills Section: Be Specific, Not Vague
+This statement is specific, honest about level of experience, and gives the recruiter something concrete to work with. It does not try to make the candidate seem more experienced than they are — it makes the most of genuine experience clearly and confidently.
 
-A skills section that lists 'communication, teamwork, and problem-solving' tells a recruiter very little. These are assumed qualities, not differentiators. Instead, focus on skills that are either specific to the industry you are entering or demonstrate a level of competence beyond the obvious.
+## Making the Most of Your Education Section
 
-For example, rather than listing 'IT skills', specify the software you actually know: Google Analytics, Adobe Premiere, Python, Salesforce, or whatever is genuinely relevant. Rather than 'communication skills', point to concrete evidence: presented findings to a panel of 15 academics, or wrote monthly newsletter reaching 500 subscribers.
+At this stage of your career, your education section does more work than it will later. Do not just list your degree and graduation year and leave it at that. Expand it to include content that demonstrates relevant capabilities.
 
-## A Note on Honesty
+**Relevant modules:** If you studied marketing and are applying for a marketing role, name the specific modules that are most relevant — Digital Marketing Strategy, Consumer Behaviour, Brand Management, Data Analytics. This helps both ATS systems and human readers understand the specific skills your degree developed.
 
-It can be tempting, when your CV feels thin, to embellish or exaggerate. Resist the urge. Hiring managers interview hundreds of candidates and are generally skilled at identifying inflated claims. More importantly, even if an exaggeration gets you through the door, it can create significant problems once you are in the role. Present what you actually have — then work to build genuine experience as quickly as possible through internships, freelance projects, or voluntary work.
+**Dissertation or final project:** If your dissertation involved primary research, data collection and analysis, or produced a tangible output, describe it the way you would describe a work project — with the challenge, your approach, and the result. "Conducted primary qualitative research with 30 participants to investigate brand loyalty patterns in the UK streaming market, producing a 10,000-word report with actionable strategic recommendations" is far more compelling than "Dissertation: brand loyalty in the streaming industry."
 
-Starting out without a long work history is not a disadvantage you need to hide. It is a starting point that every working professional has been through. A CV that presents your genuine strengths clearly, honestly, and with evidence will always be more compelling than one padded with empty claims.`,
+**Academic achievements:** If you graduated with a first class or upper second, include your classification. If you received any academic awards, prizes, scholarships, or commendations, list them — they are evidence of above-average performance.
+
+**Relevant certifications:** Any industry certifications completed during or after your degree — Google Analytics, HubSpot, AWS, Adobe, Microsoft Office Specialist — are worth including prominently. They demonstrate initiative and a commitment to professional development that goes beyond the minimum required by your course.
+
+## How to Present Non-Traditional Experience Compellingly
+
+The key skill in writing a no-experience CV is reframing — presenting genuine experience in a way that communicates its full value. Most graduates significantly understate what they have actually done.
+
+### Part-Time and Casual Work
+
+Working in a bar, café, shop, or call centre while studying is often dismissed as irrelevant. It rarely is. Part-time service work demonstrates reliability, communication skills, time management, customer focus, cash handling, and — if you progressed at all — supervisory or training responsibilities. These are genuinely valuable attributes for most entry-level roles.
+
+The difference is in how you describe it.
+
+"Worked weekends at a coffee shop" communicates almost nothing.
+
+"Worked as a part-time barista and weekend shift supervisor at a 30-cover independent café for two years alongside full-time study, managing opening and closing procedures, handling daily cash reconciliation, and training two new members of staff during peak periods" communicates reliability, time management, initiative, and practical responsibility.
+
+Same experience. Completely different impression.
+
+### University Societies and Extracurricular Activities
+
+Extracurricular activities are often more impressive than graduates realise — particularly those involving leadership, organisation, or any kind of measurable outcome.
+
+Think carefully about what you actually did in each activity you include:
+
+- Did you hold a committee position or leadership role? Describe your specific responsibilities.
+- Did you organise events? How large? How many attendees? How much budget?
+- Did you fundraise? How much did you raise?
+- Did you manage communications, social media, or publications? What was the reach?
+- Did you achieve anything notable — a competition result, a record attendance, a successful new initiative?
+
+A student society treasurer who managed a £4,000 annual budget and introduced a new accounting process is demonstrating genuine financial management experience. A student newspaper editor who grew the publication's readership and managed a team of twelve contributors is demonstrating editorial, managerial, and communications experience. These are not filler — they are real skills.
+
+### Personal and Freelance Projects
+
+If you have built anything, created anything, or helped anyone in a way that relates to the role you are applying for, include it. Personal projects are particularly valuable in creative, technical, and digital roles.
+
+A personal website or portfolio demonstrates design sense and web skills. A YouTube channel or blog with a meaningful audience demonstrates content creation, consistency, and communication. A GitHub repository demonstrates coding ability and initiative. A freelance design or copywriting project — however small, however informal — demonstrates that clients have trusted you with real work.
+
+Treat each of these with the same rigour you would a formal role: what was the project, what did you do, what was the result or output?
+
+## The Skills Section: Be Specific, Not Vague
+
+A skills section that lists "communication, teamwork, and problem-solving" tells a recruiter very little. These are assumed qualities — baseline expectations, not differentiators. Every candidate claims them, which means listing them adds nothing to your case.
+
+Instead, focus on skills that are either specific to the industry you are entering or that you can substantiate with a concrete example.
+
+Rather than "IT skills" → specify the software you actually know: Google Analytics, Adobe Illustrator, Python (intermediate), Salesforce, Excel (including pivot tables and VLOOKUP), HubSpot.
+
+Rather than "communication skills" → point to concrete evidence elsewhere in your CV: presented findings to a panel of 15 academics, managed the society's social media accounts reaching 2,000 followers, wrote a monthly newsletter distributed to 500 subscribers.
+
+Rather than "leadership skills" → cite a specific example: captained the university football team for two seasons, served as society president managing a committee of eight.
+
+The pattern is the same throughout: specificity is more convincing than assertion. Show, do not just claim.
+
+## Addressing the Experience Gap Directly
+
+You do not need to draw attention to what you lack — but you also do not need to hide the fact that you are early in your career. Confident, specific presentation of genuine experience is far more effective than trying to inflate thin content.
+
+A short, well-structured CV that clearly demonstrates capability, initiative, and relevant skills will always outperform a padded two-page document that mistakes length for substance. Recruiters recruiting at entry level know exactly what they are looking for, and they are not expecting a ten-year track record.
+
+What they are looking for is evidence that you will learn quickly, contribute meaningfully, and represent the team well. Your CV's job is to make that case as specifically and clearly as possible with what you genuinely have.
+
+## A Strong Structure for a Graduate CV
+
+Here is a section order that works well for most graduates:
+
+1. **Name and contact details** (email, phone, city, LinkedIn if active)
+2. **Professional summary** (3–4 targeted sentences)
+3. **Education** (detailed — modules, dissertation, results, certifications)
+4. **Relevant experience** (internships, placements, part-time work, freelance — in reverse chronological order)
+5. **Projects and activities** (university societies, personal projects, volunteering)
+6. **Skills** (specific, relevant, substantiated)
+
+Keep the document to one page if your experience is genuinely limited. A well-edited one-page CV is far more impressive than a padded two-page one. If you have significant internship or placement experience to include, two pages is fine — but only if every line earns its place.
+
+## The Bottom Line
+
+Every working professional you admire started somewhere. Every senior person whose career you might want to emulate once wrote their first CV with limited experience, applied for roles they were not sure they were qualified for, and got interviews by making the most of what they had at the time.
+
+The graduates who succeed are not necessarily those with the most impressive internship backgrounds. They are the ones who can articulate — specifically and clearly — what they have learned, what they have done, and why they are the right choice for this particular role.
+
+Your starting point is more than you think. Present it well.`,
         image: "🚀",
         daysAgo: 30,
-        readTime: "9 min read",
+        readTime: "15 min read",
         category: "Graduate Advice",
         slug: "writing-cv-with-no-experience-graduates",
         author: "Emily Carter",
         authorRole: "Graduate Careers Advisor"
-    }
+    },
+    {
+        id: 11,
+        title: "Best CV Format UK 2026: Which Layout Actually Gets You Hired?",
+        excerpt: "Not all CV formats are equal. Learn which UK CV layout works best in 2026 — and how to choose the right structure for your career stage and industry.",
+        content: `Choosing the right CV format in the UK is one of the most underrated decisions in the job hunt. Most people open a Word template, plug in their details, and assume the layout is fine. In reality, the format you choose affects three critical things: how an Applicant Tracking System parses and scores your CV, how a recruiter reads it in the first ten seconds, and how clearly your strongest experience comes across against other candidates.
+
+Get the format right and your content has a fair chance of being seen and evaluated. Get it wrong and your content may never reach a human reader at all.
+
+This guide covers the three main CV formats used in the UK, which one suits which situation, and the specific layout decisions that matter most in 2026.
+
+## The Three Main CV Formats Used in the UK
+
+Every CV follows one of three structural approaches. Understanding what each one does — and what it signals — is the foundation of making a good choice.
+
+### 1. Chronological CV (Reverse-Chronological)
+
+This is the most widely used CV format in the UK and the default expectation in most industries. It lists your work history in reverse chronological order, starting with your most recent role and working backwards.
+
+**What it looks like:** Professional summary at the top, followed by work experience (most recent first), then education, then skills. Each role lists the job title, company, dates, and bullet points describing responsibilities and achievements.
+
+**Why it works:** It is immediately familiar to recruiters and ATS systems. It makes your career progression easy to follow. It puts your most relevant and recent experience front and centre.
+
+**Best for:**
+- Professionals with a consistent career history in the same or related fields
+- Those applying for roles that are a natural next step from their current position
+- Candidates with strong, relevant work history to showcase
+- Any traditional or corporate industry — finance, law, accountancy, engineering, healthcare
+
+**Avoid if:**
+- You have significant career gaps you cannot explain
+- You are making a major career change and your recent roles are in a different field
+- Your most impressive experience is not your most recent
+
+### 2. Skills-Based CV (Functional CV)
+
+Rather than leading with a chronological work history, a functional CV organises content around skill categories. You might have sections titled "Project Management," "Client Communication," and "Data Analysis," each containing bullet points drawn from various roles and experiences.
+
+**What it looks like:** Professional summary at the top, followed by a prominent skills section organised by theme, then a brief work history (often with minimal detail), then education.
+
+**Why it works in theory:** It allows you to present your strongest capabilities prominently regardless of where or when you developed them. For a career changer, it can put relevant transferable skills front and centre rather than burying them in roles that look unrelated.
+
+**The significant problem:** Most recruiters and ATS systems are suspicious of functional CVs, and with good reason. They make it easy to obscure career gaps, short tenures, and limited experience. Many hiring managers actively distrust them because they have learned that candidates who use them are often hiding something.
+
+Furthermore, ATS systems are built around parsing chronological work history. A functional CV can confuse the parser and result in a low match score even when the candidate is genuinely qualified.
+
+**Best for:** Career changers with genuinely strong transferable skills and little relevant work history, or those returning to work after a very long break where the chronological approach would create more problems than it solves.
+
+**Avoid if:** You have any other option. In most cases, a hybrid CV is a better solution to the same problem.
+
+### 3. Hybrid CV (Combination CV)
+
+The hybrid CV combines the best elements of chronological and skills-based formats. It typically features a strong professional summary and a skills or core competencies section near the top, followed by a full chronological work history.
+
+**What it looks like:** Professional summary, then a brief skills or "core competencies" section listing eight to twelve key skills or areas of expertise, then full reverse-chronological work history, then education.
+
+**Why it works:** It gives ATS systems the chronological structure they are built to parse while also allowing you to lead with your strongest capabilities. It accommodates career changers by surfacing transferable skills early, without hiding the work history that recruiters want to see.
+
+**Best for:** Most candidates in 2026. The hybrid format is flexible enough to work across industries and career stages, robust enough for ATS systems, and structured enough for human readers.
+
+## Which CV Format Should You Use?
+
+For the majority of UK job seekers, the recommendation is clear: use a hybrid CV with a clean, single-column layout.
+
+The chronological format is equally valid if you have a strong, consistent career history in the field you are applying to. The functional format should generally be avoided unless your circumstances genuinely leave you no better option.
+
+If you are unsure, default to hybrid. It is the safest and most widely effective choice across industries, career stages, and application routes.
+
+## UK CV Layout Rules That Matter in 2026
+
+Beyond the structural format, specific layout decisions determine whether your CV is readable, ATS-compatible, and professional.
+
+### Length
+
+One page for graduates and those with fewer than five years of professional experience. Two pages for most professionals. Three pages only for senior academic or executive roles where an extensive record is expected.
+
+The pressure to fit everything onto one page regardless of career length is outdated advice. Two pages is standard and expected for experienced candidates. What remains true is that every line should earn its place — do not pad to reach two pages, and do not cut genuine content to stay on one.
+
+### Font and Typography
+
+Choose a clean, professional font and use it consistently throughout the document. Strong choices for UK CVs include Calibri, Georgia, Garamond, Gill Sans, and Palatino. Avoid Times New Roman (reads as dated), Arial (acceptable but generic), and anything decorative or unusual.
+
+Body text: 10 to 12 point. Your name: 16 to 20 point. Section headings: 12 to 14 point. These are not rigid rules, but they produce readable results consistently.
+
+### Colour
+
+For most roles, limit colour to a single muted accent — dark navy, charcoal, deep teal, or burgundy used for section headings or a thin dividing line. Bright colours read as amateur in most professional contexts.
+
+For creative or design roles, more distinctive colour choices are acceptable — but even then, the content and the design should both read as considered and deliberate.
+
+### Contact Details
+
+Include: your full name (prominent, at the top), phone number, professional email address, city and country (not your full address), and LinkedIn URL if your profile is active and up to date.
+
+Omit: your full postal address (unnecessary and a privacy risk), your date of birth (not relevant and can introduce age bias), a photograph (not expected in the UK and can introduce appearance-based bias).
+
+### File Format
+
+Send as a PDF for direct email applications — it preserves your formatting across all devices and operating systems. For online portal applications, check the instructions. Some older ATS systems parse Word documents more reliably than PDFs. When instructions say either is acceptable, a clean PDF is generally the safer choice.
+
+## Why ATS Compatibility Has Become Non-Negotiable in 2026
+
+Applicant Tracking Systems are now used by the vast majority of UK employers above a certain size, and their adoption among smaller businesses has increased significantly in recent years. Understanding their requirements is no longer optional.
+
+The core ATS formatting rules are:
+
+**Single-column layout only.** Multi-column templates, sidebars, and design-heavy formats are frequently misread by ATS parsers. The system may read the two columns as one continuous stream of scrambled text, making your CV incomprehensible.
+
+**No tables, text boxes, or graphics.** Content inside these elements is often invisible to ATS systems. If your contact details are in a designed header with icons, or your skills section sits inside a styled text box, the system may not be able to extract any of that information.
+
+**Standard section headings.** Use conventional terms: "Work Experience" or "Professional Experience," "Education," "Skills," "Certifications." Creative alternatives like "My Journey" or "What I Bring" confuse parsers built to recognise standard labels.
+
+**No embedded text in images.** Any text rendered as an image — decorative headings, logo-style name treatments, skill-rating bars — is completely invisible to ATS.
+
+**Body content only — no headers or footers.** Many ATS systems cannot parse document headers and footers. Place all important information — including your contact details — in the main body of the document.
+
+### A Simple ATS Test
+
+After formatting your CV, copy and paste its entire content into a plain text editor (Notepad on Windows, TextEdit on Mac in plain text mode). If the result looks clean, structured, and readable — with all sections clearly distinguishable — your CV will likely parse well. If it looks scrambled, merged, or missing sections, the formatting needs to be addressed.
+
+## Common CV Format Mistakes UK Candidates Make in 2026
+
+**Using a Canva or heavily designed template.** Beautiful in preview, almost always ATS-incompatible. Save these for applications sent directly by email to creative companies — never for portal submissions.
+
+**Over-relying on one template for every application.** Your CV structure should adapt slightly to each role. At minimum, your professional summary and the order of your bullet points should be adjusted.
+
+**Putting contact details in a header.** ATS systems often cannot read document headers. Your name and contact information should always sit in the main body of the document.
+
+**Using skill rating bars or visual proficiency indicators.** A bar chart showing you are "75% proficient in Excel" conveys no meaningful information to anyone — human or machine. List skills with brief context instead.
+
+**Making the CV too short out of misplaced modesty, or too long out of reluctance to edit.** Length should be determined entirely by how much genuinely relevant content you have — not by a rigid rule.
+
+## The Bottom Line
+
+Your CV format is the frame — your content is the picture. A good frame does not make mediocre content excellent, but a bad frame makes excellent content much harder to see.
+
+Choose a format that is appropriate for your career stage and industry, ensure it is ATS-compatible for the applications you are making, and invest the majority of your energy in making the content itself — the achievements, the specificity, the language — as strong as it can be.
+
+Those two things together — strong content in a well-structured, ATS-friendly format — are what consistently produce results.`,
+        image: "📄",
+        daysAgo: 2,
+        readTime: "15 min read",
+        category: "CV Tips",
+        slug: "best-cv-format-uk",
+        author: "Daniel Hughes",
+        authorRole: "Senior Recruitment Consultant"
+    },
+    {
+        id: 12,
+        title: "How to Beat ATS in 2026: A Practical Guide to Getting Your CV Past the Filters",
+        excerpt: "Struggling to get responses from job applications? Learn how to optimise your CV for applicant tracking systems — and why most CVs fail before anyone reads them.",
+        content: `If you have applied for dozens of roles online and heard almost nothing back, the issue is rarely your experience or your qualifications. The most likely explanation is an Applicant Tracking System — software that filters and ranks CVs before a recruiter ever sees them.
+
+Understanding ATS is not optional for serious job seekers in 2026. It is a fundamental part of how modern recruitment works, and getting it wrong means your CV may be failing at the first hurdle, invisibly, every time you apply.
+
+This guide explains exactly how ATS works, why so many CVs fail to pass it, and what you can do — practically and specifically — to improve your performance.
+
+## What Is an ATS and Why Does It Matter?
+
+An Applicant Tracking System is software used by employers to collect, organise, and filter job applications. When you submit your CV through a company's careers portal or a job board, it does not land in a recruiter's inbox. It goes into the ATS first.
+
+The system parses your CV — breaking it into component data: contact details, job titles, employment dates, employer names, educational qualifications, skills, and keywords. It then compares this data against the criteria of the job posting and assigns your application a score or ranking.
+
+Depending on the employer's settings, CVs below a certain threshold may be automatically rejected. Others may be deprioritised in the queue and never meaningfully reviewed. Either way, a poorly optimised CV can fail before any human ever sees it — regardless of how qualified you actually are.
+
+How widespread is ATS use? Research consistently suggests that the vast majority of large employers and a growing proportion of small and medium businesses now use ATS software in their hiring process. For any role at a company with a structured online application process, assuming ATS is involved is the safer bet.
+
+## How ATS Systems Actually Evaluate Your CV
+
+ATS systems do not read CVs the way humans do. They parse structured data and run comparisons. Understanding the specific mechanisms they use reveals exactly where optimisation efforts should be focused.
+
+### Keyword Matching
+
+This is the core function of most ATS tools. The system analyses the job description to identify priority keywords — skills, qualifications, tools, job titles, and industry terms — and then checks how many of those keywords appear in your CV.
+
+The matching is often quite literal. If the job description specifies "stakeholder management" and your CV uses "managing relationships with clients," some systems will not count it as a match. If the job requires "Python" and your CV says "programming experience," the system may not score it as relevant.
+
+This is why mirroring the job description's language — where it accurately reflects your genuine experience — is so important. You are not copying; you are communicating in the terms the employer has already designated as relevant.
+
+### Parsing of Structured Information
+
+ATS systems try to extract and categorise information from your CV: your most recent job title, your total years of experience, your educational qualifications, your listed skills. The accuracy of this parsing depends heavily on how your CV is formatted.
+
+A clearly structured, single-column CV with standard section headings is parsed reliably. A multi-column template with tables, sidebars, and design elements is frequently misread — key information ends up in the wrong category, merged with unrelated content, or invisible entirely.
+
+This is the core reason why formatting is not just an aesthetic consideration — it is a functional one with direct consequences for your match score.
+
+### Recency and Relevance of Experience
+
+Many ATS systems weight recent experience more heavily than older experience, and relevant experience more heavily than peripheral experience. This means the order and emphasis of your content matters to the system, not just to human readers.
+
+Your most recent and most relevant role should be clearly identified and well-populated with keyword-rich content. Older, less relevant roles can be described more briefly.
+
+## The 10 Most Common Reasons CVs Fail ATS Screening
+
+### 1. Multi-Column or Table-Based Layouts
+
+Two-column templates look polished in preview but are frequently misread by ATS parsers. The system may read the two columns as one continuous stream, merging your skills section with your contact details, or your job title with unrelated text from a sidebar. The result is an incomprehensible document that scores near zero.
+
+**Fix:** Use a clean, single-column layout for any application going through an online portal.
+
+### 2. Contact Details in Document Headers or Footers
+
+Many people place their name and contact information in the document header for visual effect. Many ATS systems cannot parse document headers and footers. The practical consequence: the system may not be able to identify who the CV belongs to.
+
+**Fix:** Place all information — including contact details — in the main body of the document.
+
+### 3. Text Inside Text Boxes or Shapes
+
+Content inside text boxes, shapes, or callout elements is invisible to most ATS parsers. If your template uses styled text boxes for section labels or a distinctive box for your professional summary, that content does not exist from the system's perspective.
+
+**Fix:** Avoid text boxes entirely. Use plain paragraph text for all content.
+
+### 4. Skills or Qualifications Listed Only in Images
+
+Skill rating bars, infographic-style qualification lists, or text rendered as part of an image are completely invisible to ATS. A recruiter's eye can see them; the system cannot.
+
+**Fix:** List all skills and qualifications as plain text in a standard text section.
+
+### 5. Unconventional Section Headings
+
+ATS systems are built to recognise standard labels: "Work Experience," "Education," "Skills," "Certifications," "Summary." Creative alternatives — "My Story," "Where I've Been," "Things I'm Good At" — may confuse the parser and result in information being miscategorised or missed.
+
+**Fix:** Use conventional section headings throughout.
+
+### 6. Not Mirroring Job Description Language
+
+This is the highest-impact optimisation most candidates are not doing. The ATS scores your CV against the specific words and phrases in the job description. Synonyms, paraphrases, and adjacent terms often do not score as matches.
+
+**Fix:** Read the job description carefully and identify the ten to fifteen most important keywords and phrases. Check that each one appears naturally in your CV where it genuinely applies to your experience. Do not stuff them artificially — recruiters still review what passes ATS — but do use the employer's own language where it is accurate.
+
+### 7. Acronyms Without Full Terms (or Vice Versa)
+
+If a job description lists "Search Engine Optimisation" and your CV only says "SEO," some systems will not match them. The reverse is also true.
+
+**Fix:** Use both the full term and the acronym where relevant: "Search Engine Optimisation (SEO)," "Customer Relationship Management (CRM) software," and so on.
+
+### 8. Using an Unusual or Unofficial Job Title
+
+If your actual job title was something like "Growth Ninja" or "Customer Happiness Manager," an ATS system looking for "Digital Marketing Executive" or "Customer Service Manager" may not recognise the match — even if the roles were functionally identical.
+
+**Fix:** Where your official title was non-standard, consider including the industry-standard equivalent in brackets: "Growth Ninja (Digital Marketing Executive)." Be honest — do not claim a title you did not hold — but do help the system recognise the nature of your role.
+
+### 9. Submitting the Wrong File Format
+
+Some ATS systems parse PDFs reliably; others do not. Submitting a PDF to a system that expects a Word document can result in garbled or missing content.
+
+**Fix:** Follow the application instructions precisely. If the employer specifies a format, use it. If no format is specified, a clean PDF works well for most modern systems, but a Word document (.docx) is the safer fallback for older platforms.
+
+### 10. A Generic, Untailored CV
+
+A CV not tailored to the specific job will almost always score lower on ATS than a tailored one — even if the candidate is objectively better qualified. The system scores based on how well your language matches the job description, and a generic CV optimised for no role in particular will match no role particularly well.
+
+**Fix:** Tailor your CV for every significant application. Focus your editing on the professional summary, the keywords present in your bullet points, and the skills section.
+
+## How to Test Your CV Against ATS
+
+Before submitting any application, you can test how well your CV performs against a specific job description.
+
+**The plain text test:** Copy your entire CV and paste it into a plain text editor. Read through it. If the result is clear, structured, and readable — with all sections identifiable and all content in the right place — your CV will likely parse well. If text is scrambled, merged, or missing, your formatting needs attention.
+
+**Keyword gap analysis:** Copy the job description and your CV into a tool like Jobscan, Resumeworded, or CV Nest's ATS scoring feature. These tools compare your content against the job description and identify which important keywords are missing from your CV. Use this as a checklist for your tailoring edits.
+
+**Read your CV as a data extraction exercise:** Go through your CV and ask — if I were a system trying to extract structured data, could I identify my most recent job title, the company, the dates, and the key skills? If any of these are ambiguous or buried, clarify them.
+
+## What Happens After You Pass ATS
+
+Passing the ATS is necessary but not sufficient. Once your CV reaches a human recruiter, a completely different set of criteria applies. Recruiters are assessing clarity, credibility, relevance, and fit — none of which ATS can evaluate meaningfully.
+
+This is why the goal is not to optimise for ATS at the expense of human readability. A CV stuffed with keywords but awkward to read will fail at the next stage. The goal is a CV that passes ATS because it genuinely contains the right experience expressed in the right language — and that also reads compellingly to the person who receives it.
+
+Authentic, well-described experience using the employer's own vocabulary achieves both. That is the practical definition of a well-optimised CV.
+
+## Summary: Your ATS Optimisation Checklist
+
+Before submitting any application, run through this checklist:
+
+- Single-column layout with no tables, sidebars, or columns
+- Contact details in the document body, not in a header or footer
+- No text boxes, shapes, or design graphics
+- Standard section headings throughout
+- Keywords from the job description present naturally in the content
+- Both full terms and acronyms used where relevant
+- Job titles recognisable to industry-standard search terms
+- File format matching application instructions (PDF or .docx)
+- CV tailored to this specific job description
+- Plain text test completed — content reads cleanly when pasted into plain text editor
+
+A CV that passes this checklist will reach human reviewers consistently. And a CV that reaches human reviewers consistently — while also being well-written and genuinely relevant — will generate interviews.
+
+That is the outcome ATS optimisation exists to enable.`,
+        image: "🤖",
+        daysAgo: 1,
+        readTime: "16 min read",
+        category: "Career Advice",
+        slug: "how-to-beat-ats",
+        author: "Sophie Bennett",
+        authorRole: "Talent Acquisition Specialist"
+    },
+
+
 ];
