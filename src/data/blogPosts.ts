@@ -1744,6 +1744,228 @@ That is the outcome ATS optimisation exists to enable.`,
         author: "Sophie Bennett",
         authorRole: "Talent Acquisition Specialist"
     },
+    {
+        id: 13,
+        title: "How to Write a Cover Letter in the UK: A Complete Guide for 2026",
+        excerpt: "Most cover letters get ignored because they say nothing new. Here's exactly how to write one that earns you an interview — with the format UK hiring managers actually expect.",
+        content: `A cover letter remains one of the most undervalued tools in the UK job-hunting process. Many candidates either skip it entirely or treat it as a formality — pasting in a recycled paragraph and hoping for the best. The candidates who get noticed are the ones who treat the cover letter as a serious piece of persuasion. Done well, it can do something a CV cannot: it tells a hiring manager why you, why this role, and why now. This guide walks through exactly how to write a cover letter for the UK job market in 2026, with real examples and the format that recruiters expect.
+
+## Do You Still Need a Cover Letter in 2026?
+
+It is a fair question. With many job applications now submitted through portals that accept a CV alone, you might wonder whether a cover letter still earns its place. The honest answer is: yes, more often than not. Around 60 per cent of UK hiring managers say they read cover letters when they are included, and a significant proportion say a strong cover letter has tipped a borderline candidate into the interview pile. When the field is competitive, a cover letter is often the deciding factor.
+
+There are a few cases where a cover letter is non-negotiable: applications submitted by email, applications for senior or specialist roles, applications where you are changing industries, and any role where the job advert specifically requests one. In short, unless the application portal makes it impossible to attach one, write a cover letter.
+
+## UK Cover Letter Format: The Standard Structure
+
+A UK cover letter follows a specific format that recruiters expect. Deviating from it without a strong reason makes your application look unfamiliar with British conventions. The format is:
+
+- Your contact details — top right or top left of the page (name, phone, email, location)
+- Date — written in full, e.g. 15 March 2026
+- Recipient details — hiring manager's name, job title, and company address (where known)
+- Salutation — "Dear [Name]" if you know it, "Dear Hiring Manager" if you don't
+- Subject line or reference — e.g. "Re: Application for Senior Marketing Executive (Ref: SME-2026-04)"
+- Opening paragraph — who you are and why you are writing
+- Middle paragraphs (one or two) — why you are right for the role
+- Closing paragraph — next steps and a confident sign-off
+- Sign-off — "Yours sincerely" if you addressed the letter to a named person, "Yours faithfully" if you didn't
+
+Keep the entire letter to one A4 page. Anything longer suggests you cannot edit, and busy hiring managers will skim or skip altogether.
+
+## How to Write Each Section of Your Cover Letter
+
+### The Opening Paragraph: Earn the Next 30 Seconds
+
+The first paragraph has one job: convince the reader to keep going. Most cover letters open with something like "I am writing to apply for the position of..." — which is correct in form but tells the reader nothing they did not already know. Replace that with a sentence that immediately signals relevance.
+
+**Weak:** "I am writing to apply for the Senior Project Manager role advertised on Indeed. Please find my CV attached."
+
+**Strong:** "I am applying for the Senior Project Manager role at Briggs & Holt. Over the last six years I have led infrastructure projects ranging from £2M to £15M, including the Crossrail station fit-out programme that delivered nine months ahead of schedule — exactly the kind of complex multi-stakeholder delivery your job advert describes."
+
+The second version names the role, references the company, demonstrates immediate relevance, and earns the reader's continued attention.
+
+### The Middle: Show, Don't Tell
+
+The middle of your cover letter should expand on two or three of your strongest matches with the role. Do not list everything on your CV — the reader can see your CV. The cover letter is where you tell the story behind the bullet points. Pick two or three job requirements from the advert, and for each one, give a concrete example of when you have done that.
+
+A useful technique is to mirror the language of the job description. If the advert says "managing competing stakeholder priorities," don't paraphrase it as "juggling different demands." Reflect the employer's wording where it genuinely fits your experience. This signals attention to detail and helps your application register on internal scoring systems.
+
+### The Closing: Confident, Not Apologetic
+
+Many candidates undermine strong cover letters with weak closings. Phrases like "I hope you will consider my application" or "I would be grateful for the opportunity to interview" sound deferential. A confident closing thanks the reader for their time, signals enthusiasm, and proposes the next step:
+
+"Thank you for considering my application. I would welcome the chance to discuss how my experience could support Briggs & Holt's growth and would be available for an interview at your convenience."
+
+## Cover Letter Example: Marketing Executive
+
+Below is a complete UK cover letter example for a marketing role. Use it as a structural reference — copying it verbatim will, of course, defeat the purpose.
+
+Dear Ms Henderson, I am applying for the Marketing Executive position at Northdale Foods, advertised on your careers page last week. Having spent the past three years building integrated campaigns for challenger food brands at Wright & Hart Agency, I was excited to see Northdale's commitment to sustainable sourcing reflected in the role's emphasis on purpose-led marketing. In my current role I plan and run campaigns across paid social, email, and PR, with budgets up to £180,000. Last quarter I led a product launch campaign for a regional dairy brand that delivered a 42 per cent uplift in retail listings within three months, supported by a TikTok creator strategy that generated 2.1 million organic views. I would bring the same blend of analytical planning and creative judgement to your in-house team. I am particularly drawn to Northdale's recent move into plant-based ranges and the marketing challenges that brings — translating an established brand voice into a genuinely new category. Having handled rebranding work for a similar transition at Wright & Hart, I understand both the technical execution and the cultural sensitivity these projects demand. Thank you for considering my application. I would welcome the chance to discuss how I could support Northdale's marketing team and am available for an interview at your convenience. Yours sincerely, Laura Mitchell
+
+## Common UK Cover Letter Mistakes to Avoid
+
+- **Using "To Whom It May Concern."** This is dated and lazy. Spend five minutes researching the hiring manager on LinkedIn, or use "Dear Hiring Manager" if you genuinely cannot find a name.
+- **Repeating your CV verbatim.** The cover letter complements the CV; it does not duplicate it. Use the letter to add narrative and context.
+- **Generic, copy-paste applications.** Hiring managers can spot template letters within seconds. Tailor every cover letter — even small adjustments make a measurable difference.
+- **Spelling and grammar errors.** Single most common reason for rejection. Read aloud, leave overnight, then check again.
+- **Mismatched sign-offs.** Use "Yours sincerely" when you have a named recipient, "Yours faithfully" when you don't. Mixing these up is a small error that signals carelessness.
+
+## Final Thoughts: The Cover Letter as Strategy
+
+A cover letter is one of the few moments in the application process where you control the narrative. It is your chance to connect the dots between what the employer is asking for and what you have done — in your own words, in your own voice. Treat it accordingly. The 30 minutes you spend on a sharp, tailored cover letter is almost always more valuable than sending the same document to ten more roles.
+
+Once your cover letter is ready, make sure your CV matches its quality. CVNest's free AI builder helps you tailor your CV to each job in minutes, ensuring the two documents tell a consistent, persuasive story.`,
+        image: "✉️",
+        daysAgo: 2,
+        readTime: "10 min read",
+        category: "Cover Letters",
+        slug: "how-to-write-cover-letter-uk",
+        author: "Daniel Carter",
+        authorRole: "Recruitment Consultant & CV Strategist"
+    },
+    {
+        id: 14,
+        title: "10 Common UK Interview Questions (And How to Answer Them Well)",
+        excerpt: "The same questions come up in almost every UK interview — yet most candidates walk in unprepared. Here's exactly how to answer the 10 most common ones, with worked examples.",
+        content: `Most job interviews in the UK are not unpredictable. The same handful of questions appear again and again across industries, levels, and company sizes — yet candidates routinely walk in unprepared and stumble through their answers. Preparing properly takes a few hours, not weeks. This guide covers the ten questions you are most likely to be asked in a UK interview in 2026, the structure of a strong answer, and worked examples you can adapt to your own experience.
+
+## The STAR Method: How to Structure Competency Answers
+
+Before working through individual questions, learn the structure that turns a vague answer into a strong one. The STAR method is the framework most UK interviewers expect, especially for competency-based questions:
+
+- **Situation** — briefly describe the context (one or two sentences)
+- **Task** — what you were responsible for or trying to achieve
+- **Action** — what you actually did (this is the longest part)
+- **Result** — what happened, ideally with numbers
+
+Most weak interview answers fail because they collapse into the situation and skip the action and result. Spend 70 per cent of your answer on what you actually did and what happened next.
+
+## 1. Tell Me About Yourself
+
+This is almost always the opening question, and the one candidates most often get wrong by treating it as either a casual chat or a chronological life story. Neither works. The interviewer is asking for a focused two-minute summary of your professional self, ending with why you are sitting in front of them.
+
+Strong answer structure: Start with your current role and one or two highlights. Move briefly through the relevant earlier roles. End with what you are looking for next, and why this role specifically.
+
+**Example:** "I am currently a senior data analyst at Eastline Logistics, where I have spent the last three years building reporting tools and predictive models that have saved the operations team around 400 hours a month. Before that I worked at Marlow Health, where I specialised in patient flow analysis. I am now looking to move into a lead role at a growing company, which is what attracted me to your data team — particularly the work you have published recently on supply chain forecasting."
+
+## 2. Why Do You Want to Work Here?
+
+This question filters out candidates who applied for any role going. Vague answers like "I really respect your company" or "It looks like a great place to work" tell the interviewer nothing. A strong answer references something specific about the company — a recent project, product, value, or piece of news — and connects it to your own goals.
+
+## 3. What Are Your Greatest Strengths?
+
+Pick two or three strengths that are genuinely relevant to the role, and back each one with a specific example. "I am a good communicator" is meaningless on its own. "I am comfortable explaining technical work to non-technical stakeholders — last year I was the only data person in a steering committee meeting where the marketing director said it was the first time she had genuinely understood the attribution model" — that sticks.
+
+## 4. What Is Your Greatest Weakness?
+
+The trap is the false-modest answer ("I work too hard") or the disqualifying answer ("I find it difficult to meet deadlines"). Pick a real but non-critical weakness, and crucially, talk about what you are doing about it.
+
+**Example:** "I have historically been less confident with public speaking — I would always volunteer to do the analysis but rarely the presentation. Over the last year I joined a local Toastmasters group and have started actively volunteering to present quarterly results to our wider department. It is still not my most natural skill, but I have noticeably improved."
+
+## 5. Tell Me About a Time You Faced a Difficult Challenge
+
+A classic STAR question. Pick a real challenge — ideally one where the outcome was positive, but a thoughtful answer about a partial success or a learning experience can also work well. Avoid challenges where you were the source of the problem, and avoid stories that involve criticising former colleagues.
+
+## 6. Where Do You See Yourself in Five Years?
+
+Interviewers ask this to gauge ambition and fit, not to lock you into a five-year plan. Avoid two extremes: empty answers ("I just want to learn and grow") and unrealistic ones ("In your job"). A strong answer outlines a credible direction — "I would like to be leading a small team and specialising in [area]" — and connects it to growth opportunities at this company.
+
+## 7. Why Are You Leaving Your Current Role?
+
+Never speak negatively about your current employer, manager, or colleagues — even if your reasons are genuine. It signals that you may say similar things about the new company in due course. Frame your answer in forward-looking terms: what you are moving towards, not what you are escaping from.
+
+## 8. Tell Me About a Time You Worked in a Team
+
+Use STAR. Pick a story that shows you contributing distinctly — not just being present in a successful team. Interviewers want to know what role you played, how you handled disagreement, and what you specifically delivered. Avoid stories where you only describe what "we" did; focus on your contribution.
+
+## 9. What Are Your Salary Expectations?
+
+Research the market rate before the interview using Glassdoor, LinkedIn Salary, or the Office for National Statistics earnings data. Give a range rather than a single figure, with the lower end at your acceptable minimum. If pressed for an exact figure early on, it is fair to say you would prefer to discuss salary once you have understood the full scope of the role and the benefits package.
+
+## 10. Do You Have Any Questions for Us?
+
+Saying "no" here is a missed opportunity and is often interpreted as a lack of genuine interest. Prepare three or four thoughtful questions in advance. Strong questions show you have thought about the role beyond the job description:
+
+- "What does success look like for someone in this role after the first year?"
+- "What are the biggest challenges the team is facing right now?"
+- "How would you describe the team's working style?"
+- "What are the next steps in the interview process?"
+
+## Final Preparation Checklist
+
+The day before your interview, do four things. Read the job description one more time and identify the three skills or qualities the employer most wants to see. Prepare a STAR example for each. Research the interviewer on LinkedIn — knowing their background helps you adjust your tone and references on the day. Plan your route, outfit, and timing so the morning is calm rather than rushed. The candidates who walk into interviews well-prepared do not necessarily have more experience than the rest. They have just done the work that the others skipped.`,
+        image: "🎯",
+        daysAgo: 2,
+        readTime: "9 min read",
+        category: "Interview Prep",
+        slug: "common-interview-questions-uk",
+        author: "Charlotte Evans",
+        authorRole: "Career Coach & Former Talent Acquisition Lead"
+    },
+    {
+        id: 15,
+        title: "How to Write a Career Change CV: A Practical UK Guide",
+        excerpt: "Applying for a new career with an old CV is the most common mistake career changers make. Here's how to reframe your experience and build a CV that convinces employers to take a chance on you.",
+        content: `Changing careers is one of the most common — and most underestimated — challenges in the UK job market. According to recent labour market data, around one in five UK workers are actively considering a career change at any given time. Yet most career changers fall into the same trap: they apply for new roles using a CV designed for their old career, then wonder why they are not hearing back. A career change CV is structurally different from a standard CV. It is not just a list of past jobs; it is a deliberate argument for why your existing experience qualifies you for something new. This guide explains how to build that argument.
+
+## Why Standard CVs Fail Career Changers
+
+A traditional chronological CV leads with your most recent job, working backwards through your career. For someone whose recent experience matches the role they are applying for, this works well. For a career changer, it actively works against you. The first thing a recruiter sees is a job title that does not match what they are looking for — and most CVs are scanned in under ten seconds. By the time the recruiter reaches the section that might genuinely interest them, they have often already moved on.
+
+The solution is not to hide your past — that creates suspicion and applicant tracking systems will flag the gap. The solution is to lead with the parts of your past that connect to the role you want. Reframe, don't conceal.
+
+## Use a Hybrid CV Format
+
+For career changers, the hybrid format is almost always the right choice. It opens with a strong personal statement that names your transition explicitly, follows with a key skills section that highlights the abilities most relevant to your new field, and then presents a chronological work history that is reframed in terms of the new direction. This structure lets you lead with your strengths while still satisfying the recruiter's need to see a complete employment record.
+
+## Write a Personal Statement That Names the Pivot
+
+Many career changers try to disguise the transition in their personal statement, hoping the reader will overlook the mismatch. This rarely works. Recruiters are paid to spot inconsistencies, and an evasive personal statement reads as defensive. The stronger approach is to acknowledge the change, briefly explain it, and frame your existing experience as preparation for what comes next.
+
+**Example for a teacher moving into corporate learning and development:**
+"Experienced secondary school teacher with eight years' experience designing curricula, delivering training to mixed-ability groups, and assessing learning outcomes. Recently completed a CIPD Level 3 in Learning and Development, and now seeking a junior L&D consultant role where my pedagogical expertise can be applied to corporate skills development. Particularly interested in organisations that take adult learning design seriously rather than treating it as a one-off training event."
+
+This personal statement does three things at once: it presents real, credible experience; it explains the pivot without apologising for it; and it shows the candidate has done enough research on the new field to have a perspective on it.
+
+## Identify Your Transferable Skills — Specifically
+
+"Transferable skills" has become such a generic phrase that it has almost lost meaning on a CV. "Communication", "teamwork", and "problem-solving" appear on virtually every CV in the country, which is why they are no longer differentiators. To make transferable skills work on a career change CV, you need to be specific about both the skill and the evidence.
+
+Take the teacher-to-L&D example. Instead of writing "strong communication skills," the candidate could write: "experienced in designing and delivering learning content to groups of 30+, including assessment of learning outcomes through differentiated questioning and end-of-unit testing." The skill is the same, but it is now framed in language that makes sense in a corporate L&D context.
+
+A useful exercise: take the job description for the role you want, list the top six requirements, and for each one write a specific example from your existing career. This becomes the raw material for your skills section.
+
+## Reframe Your Existing Experience
+
+Your work history section still needs to be honest, but the bullet points underneath each role can be deliberately reframed to highlight the parts of the work most relevant to your new direction. A management consultant moving into product management would lead each role with bullet points about stakeholder analysis, prioritisation, and delivery — not generic consultancy responsibilities.
+
+This is not deception. It is editorial judgement. Your old job was rich and varied; your CV is a deliberate selection from it. Choose the parts that strengthen the case you are making.
+
+## Demonstrate Real Commitment to the New Field
+
+Employers hiring career changers want one thing above all: evidence that this is not a casual idea. Anyone can write "now seeking a role in marketing" on a CV. Far fewer can show that they have taken a CIM Level 4 certificate, run a side project, attended industry events, or completed freelance work in the field. Concrete commitment evidence is often the single strongest signal on a career change CV.
+
+If you do not yet have any of this, get some before you apply. Even a short course, a few freelance projects, or a portfolio of personal work can transform a career change CV from speculative to credible.
+
+## Address the Salary Question Realistically
+
+One practical reality of career change: it often comes with a temporary salary reduction. If you are moving into a field where you are starting nearer the bottom of the experience curve, expect that the market will price you accordingly for the first one to two years. This does not need to appear on your CV, but it is worth thinking about before you start applying. Roles that pay below your current salary may still be the right move strategically.
+
+## The Cover Letter Carries Extra Weight
+
+For career changers, the cover letter is even more important than for traditional applicants. It is your chance to tell the story your CV cannot fully tell — why you are making this change, why now, and why this specific company. A strong cover letter can turn a CV that looks marginal on paper into an interview offer. Treat it as part of the application, not an optional extra.
+
+## Final Thoughts
+
+Career change is hard, but it is not as hard as the existing career conversation often makes it sound. UK employers in 2026 are notably more open to non-linear backgrounds than they were even five years ago, partly because the talent shortage in many sectors has forced them to broaden their search criteria. What they need from you is clarity: clarity about why you are making the change, clarity about what you bring, and clarity about how your past prepares you for what comes next. A well-built career change CV is the foundation that makes all three possible.`,
+        image: "🔄",
+        daysAgo: 2,
+        readTime: "8 min read",
+        category: "Career Change",
+        slug: "career-change-cv",
+        author: "Zara Thompson",
+        authorRole: "Senior Careers Adviser & Hiring Specialist"
+    },
 
 
 ];
